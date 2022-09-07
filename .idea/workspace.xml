@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="249c8315-45f4-4968-ba77-075c5b4a5078" name="변경" comment="변경">
-      <change afterPath="$PROJECT_DIR$/hy_example_test1/src/hy_test_exam/Example1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hy_example_test1/src/hy_test_exam/Example2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hy_example_test1/src/hy_test_exam/Example3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hy_example_test1/src/hy_test_exam/Example4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day2/src/exam_casting/CastingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day2/src/exam_operation/BitShiftExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day2/src/exam_operation/ConditionalOperationExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project_day2/src/exam_input/ScannerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day2/src/exam_input/ScannerExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project_day2/src/hy_test_exam/TestOneSubject.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,30 +36,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Project.color": "393a2e",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/j/Desktop/JavaProject/java_project_day2/src",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;393a2e&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/j/Desktop/JavaProject/java_project_day2/src&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java_project_day2/src" />
       <recent name="$PROJECT_DIR$/java_project_day1/src" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Example4">
-    <configuration name="BooleanExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_boolean.BooleanExample" />
+  <component name="RunManager" selected="애플리케이션.CastingExample">
+    <configuration name="BitShiftExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_operation.BitShiftExample" />
       <module name="java_project_day2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam_boolean.*" />
+          <option name="PATTERN" value="exam_operation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,35 +67,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CastingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_casting.CastingExample" />
+      <module name="java_project_day2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam_casting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConditionalOperationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_operation.ConditionalOperationExample" />
+      <module name="java_project_day2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam_operation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hy_test_exam.Example1" />
-      <module name="java_project_day2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hy_test_exam.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hy_test_exam.Example2" />
-      <module name="java_project_day2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hy_test_exam.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hy_test_exam.Example3" />
-      <module name="java_project_day2" />
+      <module name="hy_example_test1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hy_test_exam.*" />
@@ -137,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.CastingExample" />
+        <item itemvalue="애플리케이션.ConditionalOperationExample" />
+        <item itemvalue="애플리케이션.BitShiftExample" />
+        <item itemvalue="애플리케이션.Example1 (1)" />
         <item itemvalue="애플리케이션.Example4" />
-        <item itemvalue="애플리케이션.Example3" />
-        <item itemvalue="애플리케이션.Example2" />
-        <item itemvalue="애플리케이션.Example1" />
-        <item itemvalue="애플리케이션.BooleanExample" />
       </list>
     </recent_temporary>
   </component>
