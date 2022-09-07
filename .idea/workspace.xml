@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="249c8315-45f4-4968-ba77-075c5b4a5078" name="변경" comment="변경">
-      <change afterPath="$PROJECT_DIR$/java_project_day2/src/exam_float_double/AreaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day2/src/exam_input/InputString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day2/src/exam_input/ScannerExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day2/src/exam_input/TwoNumberSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day2/src/exam_operation/ComparisonOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day2/src/exam_operation/IncreaseDecreaseOperatorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day2/src/exam_operation/LogicalOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day2/src/exam_operation/StringConcatExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day2/src/exam_string/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/2022_09_06_11_12_PM__________.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/2022_09_06_11_12_PM__________.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy_example_test1/src/hy_test_exam/Example1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy_example_test1/src/hy_test_exam/Example2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy_example_test1/src/hy_test_exam/Example3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy_example_test1/src/hy_test_exam/Example4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project_day2/src/exam_input/ScannerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day2/src/exam_input/ScannerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project_day2/src/hy_test_exam/TestOneSubject.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +41,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Project.color": "393a2e",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "18",
+    "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "/Users/j/Desktop/JavaProject/java_project_day2/src",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -60,13 +56,13 @@
       <recent name="$PROJECT_DIR$/java_project_day1/src" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.LogicalOperator">
-    <configuration name="CharExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_char.CharExample" />
+  <component name="RunManager" selected="애플리케이션.Example4">
+    <configuration name="BooleanExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_boolean.BooleanExample" />
       <module name="java_project_day2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam_char.*" />
+          <option name="PATTERN" value="exam_boolean.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComparisonOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_operation.ComparisonOperator" />
+    <configuration name="Example1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hy_test_exam.Example1" />
       <module name="java_project_day2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam_operation.*" />
+          <option name="PATTERN" value="hy_test_exam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IncreaseDecreaseOperatorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_operation.IncreaseDecreaseOperatorExample" />
+    <configuration name="Example2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hy_test_exam.Example2" />
       <module name="java_project_day2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam_operation.*" />
+          <option name="PATTERN" value="hy_test_exam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,21 +96,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogicalOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Example3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hy_test_exam.Example3" />
+      <module name="java_project_day2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hy_test_exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hy_test_exam.Example4" />
+      <module name="java_project_day2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hy_test_exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogicalOperator" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exam_operation.LogicalOperator" />
-      <module name="java_project_day2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exam_operation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringConcatExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_operation.StringConcatExample" />
       <module name="java_project_day2" />
       <extension name="coverage">
         <pattern>
@@ -128,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.LogicalOperator" />
-        <item itemvalue="애플리케이션.CharExample" />
-        <item itemvalue="애플리케이션.ComparisonOperator" />
-        <item itemvalue="애플리케이션.StringConcatExample" />
-        <item itemvalue="애플리케이션.IncreaseDecreaseOperatorExample" />
+        <item itemvalue="애플리케이션.Example4" />
+        <item itemvalue="애플리케이션.Example3" />
+        <item itemvalue="애플리케이션.Example2" />
+        <item itemvalue="애플리케이션.Example1" />
+        <item itemvalue="애플리케이션.BooleanExample" />
       </list>
     </recent_temporary>
   </component>

@@ -29,5 +29,7 @@ public class ScannerExample {
 //        String mer = (mer == true)? "미혼":"기혼";
 //
         scan.close();
+
+
     }
 }
