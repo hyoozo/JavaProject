@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="249c8315-45f4-4968-ba77-075c5b4a5078" name="변경" comment="변경">
-      <change afterPath="$PROJECT_DIR$/java_project_day2/src/exam_casting/CastingExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day2/src/exam_operation/BitShiftExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day2/src/exam_operation/ConditionalOperationExample.java" afterDir="false" />
+    <list default="true" id="249c8315-45f4-4968-ba77-075c5b4a5078" name="변경" comment="day2">
+      <change afterPath="$PROJECT_DIR$/hy_example_test1/src/hy_test_exam/Day4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day3/java_project_day3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day3/src/exam_dowhile/DoWhileExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day3/src/exam_for/ForExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day3/src/exam_if/IfExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day3/src/exam_switch/CoffeePrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day3/src/exam_switch/SwitchCharExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day3/src/exam_switch/SwitchExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day3/src/exam_while/WhileExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/2022_09_07_5_28_PM__________.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/2022_09_07_5_28_PM__________.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hy_example_test1/src/hy_test_exam/Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy_example_test1/src/hy_test_exam/Example1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project_day2/src/exam_operation/ConditionalOperationExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day2/src/exam_operation/ConditionalOperationExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,30 +46,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Project.color&quot;: &quot;393a2e&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/j/Desktop/JavaProject/java_project_day2/src&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Project.color": "2f0339",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/Users/j/Desktop/JavaProject/java_project_day2/src",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "power.mode.ii"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java_project_day2/src" />
       <recent name="$PROJECT_DIR$/java_project_day1/src" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.CastingExample">
-    <configuration name="BitShiftExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_operation.BitShiftExample" />
-      <module name="java_project_day2" />
+  <component name="RunManager" selected="애플리케이션.DoWhileExample3">
+    <configuration name="DoWhileExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_dowhile.DoWhileExample3" />
+      <module name="java_project_day3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam_operation.*" />
+          <option name="PATTERN" value="exam_dowhile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CastingExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_casting.CastingExample" />
-      <module name="java_project_day2" />
+    <configuration name="ForExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_for.ForExample" />
+      <module name="java_project_day3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam_casting.*" />
+          <option name="PATTERN" value="exam_for.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionalOperationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_operation.ConditionalOperationExample" />
-      <module name="java_project_day2" />
+    <configuration name="IfExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_if.IfExample" />
+      <module name="java_project_day3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam_operation.*" />
+          <option name="PATTERN" value="exam_if.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hy_test_exam.Example1" />
-      <module name="hy_example_test1" />
+    <configuration name="SwitchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_switch.SwitchExample" />
+      <module name="java_project_day3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hy_test_exam.*" />
+          <option name="PATTERN" value="exam_switch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,25 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hy_test_exam.Example4" />
-      <module name="java_project_day2" />
+    <configuration name="WhileExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_while.WhileExample" />
+      <module name="java_project_day3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hy_test_exam.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogicalOperator" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_operation.LogicalOperator" />
-      <module name="java_project_day2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exam_operation.*" />
+          <option name="PATTERN" value="exam_while.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.CastingExample" />
-        <item itemvalue="애플리케이션.ConditionalOperationExample" />
-        <item itemvalue="애플리케이션.BitShiftExample" />
-        <item itemvalue="애플리케이션.Example1 (1)" />
-        <item itemvalue="애플리케이션.Example4" />
+        <item itemvalue="애플리케이션.DoWhileExample3" />
+        <item itemvalue="애플리케이션.IfExample" />
+        <item itemvalue="애플리케이션.WhileExample" />
+        <item itemvalue="애플리케이션.ForExample" />
+        <item itemvalue="애플리케이션.SwitchExample" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +175,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day1" />
     <option name="LAST_COMMIT_MESSAGE" value="day1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java_project_day3/src/exam_while/WhileExample.java</url>
+          <line>3</line>
+          <properties class="exam_while.WhileExample" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

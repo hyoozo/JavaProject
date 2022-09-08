@@ -9,7 +9,7 @@ public class Example1 {
         Scanner scan = new Scanner(System.in);
 
         int kor, eng, math, sum;
-        float avg;
+        double avg;
 
         System.out.print("국어 점수를 입력하세요. : " );
         kor = scan.nextInt();
@@ -21,13 +21,13 @@ public class Example1 {
         math = scan.nextInt();
 
         sum = kor + eng + math;
-        avg = sum / 3.0f;
+        avg = sum / 3.0;
+//        avg = sum / 3.0f; //avg가 float변수가 아니라 double형식의 변수였다면 sum/3.0으로 적어도됨
+//        avg = (double)sum /3; //(강사님코드)정수형을 실수형으로 강제 형변환
 
         System.out.printf("국어 : %d, 영어 : %d, 수학 : %d\n", kor, eng , math);
-        System.out.printf("학생의 총점은 : %d\n ", sum);
-        System.out.printf("학생의 평균은 : %.1f ", avg);
+        System.out.printf("학생의 총점은 : %d, 학생의 평균은 : %.1f", sum, avg);
 
         scan.close();
-
     }
 }
