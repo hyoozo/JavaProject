@@ -20,6 +20,13 @@ public class Day4_Exam2 {
         System.out.print("출석점수를 점수를 입력하세요 : ");
             attendance = scan.nextInt();
 
+        System.out.println("-----결과입니다-----");
+        System.out.println("중간고사 : "+midExam);
+        System.out.println("기말고사 : "+finalExam);
+        System.out.println("레포트 : "+report);
+        System.out.println("출석점수 : "+attendance);
+        System.out.println();
+
         grades =  ((midExam + finalExam)/2)*0.6 + (report * 0.2) + (attendance * 0.2);
         System.out.printf("성적 : %.2f\n",grades);
 

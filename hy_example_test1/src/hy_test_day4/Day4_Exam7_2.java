@@ -1,7 +1,25 @@
 package hy_test_day4;
 
 import java.util.Scanner;
-public class Day4_Exam7 {
+
+public class Day4_Exam7_2 {
+    static void print(int opt, int num1, int num2){
+        switch (opt) {
+            case 1:
+                System.out.println(num1 + "+" + num2 + "=" + (num1 + num2));
+                break;
+            case 2:
+                System.out.println(num1 + "-" + num2 + "=" + (num1 - num2));
+                break;
+            case 3:
+                System.out.println(num1 + "*" + num2 + "=" + (num1 * num2));
+                break;
+            case 4:
+                float dvsn = (float) num1 / (float) num2;
+                System.out.println(num1 + "/" + num2 + "=" + Math.round (dvsn*10) /10.0);
+                break;
+        }
+    }
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
@@ -31,21 +49,9 @@ public class Day4_Exam7 {
             num1 = scan.nextInt();
             num2 = scan.nextInt();
 
-            if(opt == 1){
-                int sum = num1 + num2;
-                System.out.println(num1+"+"+num2+"="+sum);
-            } else if (opt == 2) {
-                int minus = num1 - num2;
-                System.out.println(num1 + "-" + num2 + "=" + minus);
-            } else if (opt == 3) {
-                int mltpl = num1 * num2;
-                System.out.println(num1 + "*" + num2 + "=" + mltpl);
-            } else if (opt == 4) {
-                double dvsn = (double)num1 / (double) num2;
-//                System.out.println(num1 + "/" + num2 + "=" + Math.round (dvsn*10) /10);
-                System.out.printf("%d / %d = %.1f ",num1,num2,dvsn);
-            }
+            Day4_Exam7_2.print(opt, num1, num2);
 
         } while(0 < opt && opt < 6);
+        scan.close();
     }
 }
