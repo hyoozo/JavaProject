@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="249c8315-45f4-4968-ba77-075c5b4a5078" name="변경" comment="day4 수업내용">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hy_example_test1/src/hy_test_day4/Day4_Exam7_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hy_example_test1/src/hy_test_day4/Day4_Exam7_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hy_example_test1/src/hy_test_day5/ForMultiplicationTableExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day4/java_project_day4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day4/src/exam_array/ArrayExam1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day4/src/exam_array/ArrayExam2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day4/src/exam_array/ArrayExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="249c8315-45f4-4968-ba77-075c5b4a5078" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/hy_example_test1/src/hy_test_day5/Day5_Exam1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hy_example_test1/src/hy_test_day5/Day5_Exam2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day4/src/exam_array/ArrayExam3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/2022_09_06_11_12_PM,_업데이트_전에_커밋되지_않은_변경_내용_[변경]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/2022_09_06_11_12_PM__________.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_example_test1/src/hy_test_day4/Day4_Exam1.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy_example_test1/src/hy_test_day4/Day4_Exam1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_example_test1/src/hy_test_day4/Day4_Exam2.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy_example_test1/src/hy_test_day4/Day4_Exam2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hy_example_test1/src/hy_test_day4/Day4_Exam7.java" beforeDir="false" afterPath="$PROJECT_DIR$/hy_example_test1/src/hy_test_day4/Day4_Exam7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project_day4/src/exam_array/ArrayExam1.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day4/src/exam_array/ArrayExam1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,30 +39,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Project.color": "2f0339",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/j/Desktop/JavaProject/java_project_day2/src",
-    "project.structure.last.edited": "프로젝트",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;393a2e&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/j/Desktop/JavaProject/java_project_day2/src&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java_project_day2/src" />
       <recent name="$PROJECT_DIR$/java_project_day1/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="hy_test_day4" />
+      <recent name="exam_if" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ArrayExam1">
+  <component name="RunManager" selected="애플리케이션.ArrayExam3">
     <configuration name="ArrayExam1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exam_array.ArrayExam1" />
       <module name="java_project_day4" />
@@ -82,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayExam2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_array.ArrayExam2" />
+    <configuration name="ArrayExam3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_array.ArrayExam3" />
       <module name="java_project_day4" />
       <extension name="coverage">
         <pattern>
@@ -95,21 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_array.ArrayExample" />
-      <module name="java_project_day4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exam_array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day4_Exam1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hy_test_day4.Day4_Exam1" />
+    <configuration name="Day4_Exam9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hy_test_day4.Day4_Exam9" />
       <module name="hy_example_test1" />
       <extension name="coverage">
         <pattern>
@@ -121,12 +99,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day4_Exam7_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hy_test_day4.Day4_Exam7_2" />
+    <configuration name="Day5_Exam1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hy_test_day5.Day5_Exam1" />
       <module name="hy_example_test1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hy_test_day4.*" />
+          <option name="PATTERN" value="hy_test_day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day5_Exam2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hy_test_day5.Day5_Exam2" />
+      <module name="hy_example_test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hy_test_day5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogicalOperator" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_operation.LogicalOperator" />
+      <module name="java_project_day2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam_operation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ArrayExam3" />
         <item itemvalue="애플리케이션.ArrayExam1" />
-        <item itemvalue="애플리케이션.ArrayExam2" />
-        <item itemvalue="애플리케이션.ArrayExample" />
-        <item itemvalue="애플리케이션.Day4_Exam1" />
-        <item itemvalue="애플리케이션.Day4_Exam7_2" />
+        <item itemvalue="애플리케이션.Day5_Exam2" />
+        <item itemvalue="애플리케이션.Day5_Exam1" />
+        <item itemvalue="애플리케이션.Day4_Exam9" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662472569234</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="변경">
+      <created>1662830729483</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662830729483</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,33 +187,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day1" />
-    <option name="LAST_COMMIT_MESSAGE" value="day1" />
+    <MESSAGE value="변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="변경" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/java_project_day3/src/exam_while/WhileExample.java</url>
-          <line>3</line>
-          <properties class="exam_while.WhileExample" method="main">
+          <url>file://$PROJECT_DIR$/java_project_day3/src/exam_if/IfExample2.java</url>
+          <line>7</line>
+          <properties class="exam_if.IfExample2" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/hy_example_test1/src/hy_test_day4/Day4_Exam2.java</url>
-          <line>5</line>
-          <properties class="hy_test_day4.Day4_Exam2" method="main">
+          <url>file://$PROJECT_DIR$/hy_example_test1/src/hy_test_day4/Day4_Exam1.java</url>
+          <line>7</line>
+          <properties class="hy_test_day4.Day4_Exam1" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hy_example_test1/src/hy_test_day4/Day4_Exam7_1.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/hy_example_test1/src/hy_test_day4/Day4_Exam4.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
