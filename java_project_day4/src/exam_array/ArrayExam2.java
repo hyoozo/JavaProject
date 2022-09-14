@@ -14,7 +14,7 @@ public class ArrayExam2 {
             eng[i] = scan.nextInt();
         }
         for(int i = 0; i < kor.length; i++){  //배열값 출력(국어점수와 영어점수의 배열의 크기가 동일함으로
-            System.out.printf("국어 :%3d",kor[i]);
+            System.out.printf("국어 :%3d  ",kor[i]);  //%3d 는 3자리보다 작으면 왼쪽정렬 하여 출력을 도와준다.
             System.out.printf("영어 :%3d\n",eng[i]);
         }
         scan.close();

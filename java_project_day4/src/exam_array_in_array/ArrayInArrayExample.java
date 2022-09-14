@@ -1,11 +1,6 @@
 package exam_array_in_array;
-
-import java.sql.SQLOutput;
-
 public class ArrayInArrayExample {
     public static void main(String[] args) {
-
-
         //2차원 배열
         //자료형[][] 배열명 = new 자료형[행의 요소][열의 요소]
         int[][] arr1 = new int[2][3];

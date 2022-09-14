@@ -1,6 +1,4 @@
 package hy_test_day5;
-
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -10,32 +8,37 @@ import java.util.Scanner;
 //즉 예약이 끝난 좌석은 1로, 예약이 안된 좌석은 0으로 나타낸다.
 public class Day5_Exam3 {
     public static void main(String[] args) {
-        int a[] = {1,2,3,4,5,6,7,8,9,10};
-        int b[] = new int[10];
-        ArrayList<Integer> bb = new ArrayList<>();
-        for (int i : b){
-            bb.add(i);
-        }
+        int[] a = {1,2,3,4,5,6,7,8,9,10};
+        int[] b = {0,0,0,0,0,0,0,0,0,0};
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println(Arrays.toString(a));
-        System.out.println(Arrays.toString(b));
-        System.out.print("원하시는 좌석번호를 입력하세요 (종료는 -1): ");
-        int seat = scan.nextInt();
+        while (true) {
+            System.out.println(Arrays.toString(a));
+            System.out.println(Arrays.toString(b));
+            System.out.print("원하시는 좌석번호를 입력하세요 (종료는 -1): ");
+            int seat = scan.nextInt();
 
-//        if(seat == -1)
-//            break;
 
-//        for (int i = 0; i <a.length; i++){
-//            for (int o = 0; o <i; o++){
-//                if (otp == 1) {
-//                    bb.add(1,1);
-//                    System.out.println(Arrays.toString(b));
-//                    System.out.println();
-//                }
-//            }
-//        }
+            if (seat == -1) {
+                break;
+            }
+            if (seat >= 1 && seat <= 10) {
+                if (b[seat - 1] == 0) {
+                    b[seat - 1] = 1;
+                    System.out.println("예약완료.");
+                } else {
+                    System.out.println("예약불가");
+                }
+            } else {
+                System.out.println("번호 잘못 기입");
+            }
+        }
+
+
+        System.out.println("종료합니다.");
+        scan.close();
+        }
+
     }
-}
 //과제임
