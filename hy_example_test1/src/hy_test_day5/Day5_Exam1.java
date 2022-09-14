@@ -27,7 +27,7 @@ public class Day5_Exam1 {
             System.out.println(k + "점");
         }
 
-        for (int i = 0; i < jumsu.length; i++) {
+        for (int i = 0; i < jumsu.length; i++) {    //오름차순
             for (int j = i + 1; j < jumsu.length; j++) {
                 if (jumsu[i] > jumsu[j]) {
                     int tmp = jumsu[i];
