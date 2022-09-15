@@ -10,37 +10,17 @@ import java.util.Scanner;
 //[실행결과]
 //  숫자 두개를 입력해주세요 : 3 4
 //  [3,4,2,8,6,8,8,4,2,8]
-public class Day5_Exam4 {
+public class Day5_Exam4_1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         //1차원 배열 정하기 배열크기 10개
         //배열 0번째 1번째 숫자 10이하 입력받기
-        int[] arr = new int[10];
-
-        System.out.println("숫자 두 개를 입력해 주세요 : ");
-        arr[0] = scan.nextInt();
-        arr[1] = scan.nextInt();
-
-        while (true) {
-            if (arr[0] <= 1 || arr[1] >= 10) {
-                System.out.println("1~10까지 입력하세요..");
-                arr[0] = scan.nextInt();
-                arr[1] = scan.nextInt();
-            } else {
-                break;
-            }
-        }
-        System.out.print("[");
-        System.out.print(arr[0]);
-        for (int i = 2; i < arr.length; i++) {
-            arr[i] = arr[i - 2] * arr[i - 1] % 10;
-        }
-        for (int i = 1; i < arr.length; i++) {
-            System.out.print("," + arr[i]);
-        }
-        System.out.println("]");
-
-        System.out.println();
+//        int[] arr = new int[10];
+//        int su = 0;
+//
+//            System.out.println("숫자 두 개를 입력해 주세요 : ");
+//            arr[su] = scan.nextInt();
+//
 
         scan.close();
     }

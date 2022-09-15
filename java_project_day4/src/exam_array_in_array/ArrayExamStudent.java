@@ -6,11 +6,8 @@ public class ArrayExamStudent {
         int[][] score = {{90,75,61},
                          {55,56,46},
                          {90,90,90}};
-
         int sum;
         double avg;
-
-
         for (int i = 0; i < 3; i++){
             System.out.print(name[i] + " : ");
             sum = 0;
