@@ -15,7 +15,7 @@ public class Car {
     }
     public String toString() {
         return "속도: " + speed + " 기어: " + gear + " 컬러: " + color;
-        //객체의 상태를 문자열로 반환하는 메소드
+//        객체의 상태를 문자열로 반환하는 메소드
     }
     public void carDat(int s, int j, String c){
         speed = s;

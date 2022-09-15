@@ -25,5 +25,6 @@ public class CarTest {
         car2.speedUp(96);
         car2.printData();
             // Car class 메소드 불러온 것임
+
     }
 }
