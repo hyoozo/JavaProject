@@ -43,5 +43,8 @@ public class Car {
         car2.speedUp(96);
         car2.printData();
 
+        car = car2; //car2의 주소를 car에 대입한다는 뜻
+        car.speed= 10;
+        System.out.println(car2.speed);
     }
 }

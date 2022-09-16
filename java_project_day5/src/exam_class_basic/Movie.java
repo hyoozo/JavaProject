@@ -1,19 +1,18 @@
 package exam_class_basic;
 
 public class Movie {
-    String title;
-    String director;
-    int date;
-    String genre;
+   public String movieTitle;
+   public String movieGrade;
+   public String moviDirector;
+   public String movieYear;
 
-
-    public void movieMethod(String title, String director, int date, String genre){
-        System.out.println("영화제목: "+title+" 감독: "+director+" 개봉일: "+date+" 장르:"+genre);
-    }
-    public void moviePrint(){
-        System.out.println("영화제목: "+this.title+" 감독: "+this.director+" 개봉일: "+this.date+" 장르:"+this.genre);
+    public void movieData(String title, String grade, String director, String year) {
+        movieTitle = title;
+        movieGrade = grade;
+        moviDirector = director;
+        movieYear = year;
     }
     public String toString(){
-        return "영화제목: "+title+" 감독: "+director+" 개봉일: "+date+" 장르:"+genre;
+        return String.format("%s\t %s\t %-10s\t %s",movieTitle,movieGrade,moviDirector,movieYear);
     }
 }
