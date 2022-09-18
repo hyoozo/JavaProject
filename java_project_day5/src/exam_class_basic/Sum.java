@@ -6,6 +6,10 @@ public class Sum {
         int num2 = 5;
         return num2 + num1;
     }
+    public static int increase(int n){
+        n = n + 1;
+        return n;
+    }
 
     public int sum2(int a, int b) {
         return a + b;
@@ -25,5 +29,9 @@ public class Sum {
         double avgresult = sum.avg(2,5);
         System.out.println(avgresult);
 
+        int n = 10;
+        increase(n);
+        System.out.println(increase(n));
+        System.out.println(n);
     }
 }

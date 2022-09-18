@@ -12,7 +12,7 @@ public class ArrayExample {
 
         double[] arrayDouble = new double[2];
         for (int i = 0; i < 2; i++){
-            System.out.println("arrayDouble["+ i + "] = " + arrayDouble.length );
+            System.out.println("arrayDouble["+ i + "] = " + arrayDouble[i] );
         }
         System.out.println();
 
@@ -21,7 +21,7 @@ public class ArrayExample {
         arrayString[1] = "oracle";
         arrayString[2] = "spring";
         for (int i = 0; i < 3; i++) {
-            System.out.println("arrayString["+ i +"] = "+ arrayString.length);
+            System.out.println("arrayString["+ i +"] = "+ arrayString[i]);
         }
         System.out.println();
 
