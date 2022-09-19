@@ -1,4 +1,4 @@
-package exam_class_constructor;
+package exam_method.exam_class_constructor;
 
 import exam_class_basic.Car;
 

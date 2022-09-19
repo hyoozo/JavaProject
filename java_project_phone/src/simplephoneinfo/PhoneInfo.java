@@ -10,7 +10,6 @@ public class PhoneInfo {
     public void setName(String name){
         this.name = name;
     }
-
     public void setPhoneNumber(String phoneNumber){
         this.phoneNumber = phoneNumber;
     }
@@ -18,8 +17,17 @@ public class PhoneInfo {
         this.birthday = birthday;
     }
     public void showPhoneInfo() {
-//        if (showPhoneInfo()) {
-//            "name: " + name + "\nphone: " + phoneNumber + "\nbirth: " + birthday;
-//        }
+        if(!this.birthday.equals("")) {
+            System.out.println(
+                    "[입력된 정보 출력]" +
+                            "\nName: " + this.name +
+                            "\nPhone Number: " + this.phoneNumber +
+                            "\nBirthday: " + this.birthday);
+        }else{
+            System.out.println(
+                    "[입력된 정보 출력]"+
+                            "\nName: " + this.name +
+                            "\nPhone Number: " + this.phoneNumber );
+        }
     }
 }
