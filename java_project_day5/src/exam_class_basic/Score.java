@@ -16,8 +16,8 @@ public class Score {
         this.kor = kor;
         this.eng = eng;
         this.math = math;
-        this.sum = this.kor + this.eng + this.math;
-        this.avg = (double) this.sum/3;
+//        this.sum = this.kor + this.eng + this.math;
+//        this.avg = (double) this.sum/3;
     }
 
     public int getSum(){
@@ -25,14 +25,11 @@ public class Score {
         return this.sum;
     }
     public double getAvg(){
-        this.avg = (double) this.sum/3;
-        return this.avg;
+        return this.avg = (double) this.sum/3;
     }
     public String toString(){
-        this.sum = this.kor + this.eng + this.math;
-        this.avg = (double) (this.sum/3)*100/10.0;
-//        return name+"\t" + kor+"\t\t" + eng+"\t\t" + math+"\t\t" + sum+"\t\t" + avg;
-
-        return String.format("%s\t %d\t %d\t %d\t %d\t %.2f",name,kor,eng,math,sum,avg);
+//        this.sum = this.kor + this.eng + this.math;
+//        this.avg = (double) (this.sum/3)*100/10.0;
+        return String.format("%s\t %d\t %d\t %d\t %d\t %.2f",name,kor,eng,math,sum,getAvg());
     }
 }

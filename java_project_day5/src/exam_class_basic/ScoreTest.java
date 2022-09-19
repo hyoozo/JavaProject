@@ -9,8 +9,8 @@ import java.util.Scanner;
 // 사용자로 이름 및 점수들을 입력받아 아래의 결과를 출력하도록 한디.
 public class ScoreTest {
     public static Scanner scan = new Scanner(System.in);
-    public static void scanData(Score sc){
-        System.out.print("이름: ");
+    public static void scanData(Score sc){ // 매개변수 : 클래스명 참조변수 = 주솟값
+        System.out.print("학생 이름: ");
         sc.name = scan.nextLine();
         System.out.print("국어점수 : ");
         sc.kor = scan.nextInt();
@@ -21,11 +21,10 @@ public class ScoreTest {
         scan.nextLine();
     }
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
         Score score1 = new Score();
         Score score2 = new Score();
         Score score3 = new Score();
-        scanData(score1);
+        scanData(score1);  //score1 의 주솟값을 scanData에 담는다.
         scanData(score2);
         scanData(score3);
 

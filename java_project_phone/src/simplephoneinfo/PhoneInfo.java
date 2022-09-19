@@ -10,21 +10,16 @@ public class PhoneInfo {
     public void setName(String name){
         this.name = name;
     }
+
     public void setPhoneNumber(String phoneNumber){
         this.phoneNumber = phoneNumber;
     }
     public void setBirthday(String birthday){
-//        if(birthday != "")
-            this.birthday = birthday;
-//        else
-//            this.phoneNumber = "";
+        this.birthday = birthday;
     }
-    public String showPhoneInfo(){
-        if(birthday != "") {
-            return "name : " + this.name + "\nphone : " + this.phoneNumber + "\nbirthday : " +this.birthday ;
-        } else {
-            return "name : " + this.name + "\nphone : " + this.phoneNumber ;
-        }
-
+    public void showPhoneInfo() {
+//        if (showPhoneInfo()) {
+//            "name: " + name + "\nphone: " + phoneNumber + "\nbirth: " + birthday;
+//        }
     }
 }
