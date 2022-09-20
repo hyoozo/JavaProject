@@ -8,10 +8,10 @@ public class FruitTest {
         FruitInfo cherry = new FruitInfo("cherry", 12000);
 
         System.out.println("======== [과일구입 목록] ========");
-        System.out.println(banana.getFname()+":"+banana.getPrice());
-        System.out.println(strawberry.getFname()+":"+strawberry.getPrice());
-        System.out.println(persimmon.getFname()+":"+persimmon.getPrice());
-        System.out.println(cherry.getFname()+":"+cherry.getPrice());
+        System.out.println(banana.toString());
+        System.out.println(strawberry.toString());
+        System.out.println(persimmon.toString());
+        System.out.println(cherry.toString());
         System.out.println("======== [ 영  수  증] ========");
         int sum = banana.getPrice()+ strawberry.getPrice()+ persimmon.getPrice()+ cherry.getPrice();
         int total = sum - (int)(sum * 0.15);

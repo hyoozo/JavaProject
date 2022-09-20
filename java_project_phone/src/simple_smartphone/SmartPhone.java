@@ -6,14 +6,10 @@ public class SmartPhone {
     private int price; //가격
     private int discountRate; //할인율
     int total=0;
-    public SmartPhone(){
-
-    }
     public SmartPhone(String maker, String name, int price){
         this.maker = maker;
         this.name = name;
         this.price = price;
-
     }
     public SmartPhone(String maker, String name, int price, int discountRate) {
         this.maker = maker;
@@ -28,14 +24,12 @@ public class SmartPhone {
     public String getMaker(){
         return this.maker;
     }
-
     public void setMaker(String maker) {
         this.maker = maker;
     }
     public String getName(){
         return this.name;
     }
-
     public void setName(String name) {
         this.name = name;
     }

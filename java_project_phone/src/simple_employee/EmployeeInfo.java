@@ -20,47 +20,20 @@ public class EmployeeInfo {
             this.grade = "영업";
         }
     }
-
-    public void setEmpNo(String empNo){  // 초기화
-        this.empNo = empNo;
-    }
     public String getEmpNo(){
         return this.empNo;
-    }
-    public void setBasicPay(int basicPay){
-        this.basicPay = basicPay;
     }
     public int getBasicPay(){
         return basicPay;
     }
-
-    public void setExtraPay(int basicPay){
-        this.extraPay = (int)(basicPay * 0.15);
-    }
     public int getExtraPay(){
         return this.extraPay;
     }
-
-//    public void setTax(int basicPay){
-//        this.tax = (int)(basicPay * 0.20);
-//    }
     public int getTax(){
         return this.tax;
     }
-
-    public void setSalary(int basicPay, int extraPay, int tax){
-        this.salary = basicPay + extraPay - tax;
-    }
-    public int getSalary(){
+     public int getSalary(){
         return this.salary;
-    }
-
-    public void setGrade(int salary){
-        if(salary > 500000){
-            this.grade = "관리자";
-        }else {
-            this.grade = "영업";
-        }
     }
     public String getGrade(){
         return this.grade;
