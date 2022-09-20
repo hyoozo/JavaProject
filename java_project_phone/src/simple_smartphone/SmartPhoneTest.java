@@ -15,5 +15,9 @@ public class SmartPhoneTest {
                 "\n가격 : "+phone1.getPrice()+
                 "\n할인가격("+phone1.getDiscountRate()+"%)"+phone1.calculateDiscount(phone1.getDiscountRate()));
         System.out.println("-------------------");
+        System.out.println(phone2.getName()+"["+phone2.getMaker()+"]"+
+                "\n가격 : "+phone2.getPrice()+
+                "\n할인가격("+phone2.getDiscountRate()+"%)"+phone2.calculateDiscount(phone2.getDiscountRate()));
+        System.out.println("-------------------");
     }
 }

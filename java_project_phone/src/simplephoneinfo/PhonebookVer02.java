@@ -4,33 +4,36 @@ import java.util.Scanner;
 
 public class PhonebookVer02 {
     public static Scanner scan = new Scanner(System.in);
-    public static void scanData(PhoneInfo ab){ // 매개변수 : 클래스명 참조변수 = 주솟값
+    public static String name, phoneNumber, birthday;
+
+    public static void scanData() {
         System.out.print("이름: ");
-        String name = scan.nextLine();
-        ab.setName(name);
+        name = scan.nextLine();
         System.out.print("전화번호: ");
-        String phoneNumber = scan.nextLine();
-        ab.setPhoneNumber(phoneNumber);
+        phoneNumber = scan.nextLine();
         System.out.print("생년월일 :  ");
-        String birthday = scan.nextLine();
-        ab.setBirthday(birthday);
+        birthday = scan.nextLine();
         System.out.println();
     }
 
     public static void main(String[] args) {
-        PhoneInfo ph1 = new PhoneInfo();
-
-        int num ;
+        int num;
+        PhoneInfo p = new PhoneInfo();
         do {
-            System.out.println("1. 데이터 입력 (내용 입력을 원치 않을시 Enter)");
-            System.out.println("2. 프로그램 종료");
+            System.out.println("1. 데이터 입력 (내용 입력을 원치 않을시 Enter) \n2. 프로그램 종료");
             num = scan.nextInt();
             scan.nextLine();
-            if(num == 1){
-                scanData(ph1);
-                ph1.showPhoneInfo();
+            System.out.println("선택 : " + num);
+            if (num == 1) {
+                scanData();
+                if (birthday.equals("")) {
+                    p = new PhoneInfo(name, phoneNumber);
+                } else {
+                    p = new PhoneInfo(name, phoneNumber, birthday);
+                }
+                p.showPhoneInfo();
             }
-        }while(num != 2) ;
+        } while (num != 2);
         System.out.println("프로그램 종료합니다.");
     }
 }

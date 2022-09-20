@@ -7,15 +7,19 @@ public class SmartPhone {
     private int discountRate; //할인율
     int total=0;
     public SmartPhone(String maker, String name, int price){
-        this.maker = maker;
-        this.name = name;
-        this.price = price;
+//        this.maker = maker;
+//        this.name = name;
+//        this.price = price;
+        this(maker,name,price,0);
     }
     public SmartPhone(String maker, String name, int price, int discountRate) {
         this.maker = maker;
         this.name = name;
         this.price = price;
         this.discountRate = discountRate;
+    }
+    public SmartPhone(){
+
     }
     public int calculateDiscount(int discountRate){
          total = (int)this.price - (this.price * discountRate)/100;
