@@ -7,9 +7,6 @@ public class SmartPhone {
     private int discountRate; //할인율
     int total=0;
     public SmartPhone(String maker, String name, int price){
-//        this.maker = maker;
-//        this.name = name;
-//        this.price = price;
         this(maker,name,price,0);
     }
     public SmartPhone(String maker, String name, int price, int discountRate) {
@@ -25,6 +22,11 @@ public class SmartPhone {
          total = (int)this.price - (this.price * discountRate)/100;
         return total;
     }
+
+    public int getTotal() {
+        return total;
+    }
+
     public String getMaker(){
         return this.maker;
     }
@@ -48,5 +50,12 @@ public class SmartPhone {
     }
     public void setDiscountRate(int discountRate){
         this.discountRate = discountRate;
+    }
+    public void printInpo(){
+        System.out.println(maker+" ["+name+"]");
+        System.out.println("가격 : "+price);
+                if(discountRate > 0){
+                    System.out.println("할인가격("+discountRate+"%) : "+ calculateDiscount(getDiscountRate()));
+                }
     }
 }
