@@ -5,7 +5,15 @@ public class Employee {
     private String address;
     private String phoneNumber;
     private int salary;
+    public Employee(){
 
+    }
+    public Employee(String name, String address, String phoneNumber, int salary) {
+        this.name = name;
+        this.address = address;
+        this.phoneNumber = phoneNumber;
+        this.salary = salary;
+    }
     public String getName() {
         return name;
     }
@@ -44,9 +52,6 @@ public class Employee {
         this.salary = salary;
     }
     public String toString(){
-        return "이름 : "+ name +
-                "\n주소 : "+ address +
-                "\n번호 : "+ phoneNumber +
-                "\n급여 : "+ salary ;
+        return "이름 : "+ name + "\t주소 : "+ address + "\t번호 : "+ phoneNumber + "\t급여 : "+ salary ;
     }
 }

@@ -10,15 +10,20 @@ public class Employee extends Person{
         super(name, age);
         this.dept = dept;
     }
-
+    @Override
+    public void setName(String name){
+        super.setName(name);
+        System.out.println();
+    }
     public String getDept(){
         return dept;
     }
     public void setDept(String dept){
         this.dept = dept;
     }
-    public String toString(){
+    public String toString(){//메소드 재정의
         return super.toString()+":"+getDept();
+            //메소드 오버라이딩
     }
 }
 

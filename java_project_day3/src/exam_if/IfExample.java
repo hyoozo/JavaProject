@@ -21,5 +21,6 @@ public class IfExample {
             data = "홀수";
         }
         System.out.println("입력한 "+ su + "는 " + data +" 입니다.");
-        }
+        scan.close();
     }
+}

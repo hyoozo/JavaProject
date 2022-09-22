@@ -17,7 +17,8 @@ public class FruitTestArray {
 
         System.out.println("========[과일구입목록]========");
         //for 확장문 for(자료형 변수명 : 배열명){}
-        for (FruitInfo fruitInfo : fruit) {     // 객체 출력하기 반복문
+        for (int i = 0; i < fruit.length; i++) {
+            FruitInfo fruitInfo = fruit[i];     // 객체 출력하기 반복문
             System.out.println(fruitInfo.toString());
         }
 //        for (int i = 0; i < fruit.length; i++){     // 객체 출력하기 반복문
