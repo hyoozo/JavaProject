@@ -38,4 +38,11 @@ public class EmployeeInfo {
     public String getGrade(){
         return this.grade;
     }
+    public String showMeThePrint(){
+//        String[] str = String.format("%4s | %6d | %8.0f | %7.0f | %5s",
+//        System.out.println(String.format("%4s | %6d | %8.0f | %7.0f | %5s",this.getEmpNo(),this.getBasicPay(),this.getExtraPay(),this.getTax(),this.getSalary(),this.getGrade()));
+
+         return  this.getEmpNo()+"   "+this.getBasicPay()+"    "+this.getExtraPay()+"   "+this.getTax()+"   "+this.getSalary()+"   "+this.getGrade();
+
+    }
 }
