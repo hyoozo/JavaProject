@@ -1,4 +1,7 @@
 package exam_class_array_scoreOX;
+
+import java.util.Objects;
+
 // 1~5번의 입력 답 dap[]
 // 답의 개수를 체크하는 cnt를 이용하여 점수를 매기고 맞는 전체 개수를 체크하는 static 변수인 tot를 이용한다.
 //생성자를 이용하여 번호, 이름, 답을 받아 객체를 생성하고 compute() 메서드에서는 정답 {1,1,1,1,1}과 입력한 데이터가 맞으면
@@ -21,17 +24,15 @@ public class ScoreOX {
         this.name = name;
         this.dap = dap;
     }
-    public void compute(){
-//        if(dap[i] == new int[]{1, 1, 1, 1, 1}){
-//
-//        }
+    public void compute(){//정답 {1,1,1,1,1}과 입력한 데이터가 맞으면 개수ㅘ 전체 개수 체크
+
         return;
     }
-    public void display(){
+    public void display(){   //compute 내용 출력
         return;
 
     }
-    public static void ranking(ScoreOX[] sc){
+    public static void ranking(ScoreOX[] sc){  //5명의 ScoreOX의 객체를 배열로 받아서 순위구하기
          ScoreOX[] scoreOX = new ScoreOX[5];
 
 
