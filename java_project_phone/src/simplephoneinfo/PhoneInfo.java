@@ -7,26 +7,42 @@ public class PhoneInfo {
     private String phoneNumber;
     private String birthday;
 
+    public PhoneInfo(){
+
+    }
+    public PhoneInfo(String name, String phoneNumber){
+        this(name,phoneNumber,null);
+    }
     public PhoneInfo(String name, String phoneNumber, String birthday){
         this.name = name;
         this.phoneNumber = phoneNumber;
         this.birthday = birthday;
     }
-    public PhoneInfo(String name, String phoneNumber){
-        this(name,phoneNumber,null);
-    }
-    public PhoneInfo(){
 
+    public String getName() {
+        return name;
     }
-    public void setName(String name){
+
+    public void setName(String name) {
         this.name = name;
     }
-    public void setPhoneNumber(String phoneNumber){
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
-    public void setBirthday(String birthday){
+
+    public String getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(String birthday) {
         this.birthday = birthday;
     }
+
     public void showPhoneInfo(){
         System.out.println( "[입력된 정보 출력]");
         System.out.println("name : "+ name);
