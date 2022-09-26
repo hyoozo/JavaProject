@@ -5,7 +5,7 @@ package hy_test_day7_interface;
     반납한다 (checkIn())
  */
 public interface Lendable {
-    public String checkOut(String borrower, String date);
-    public String checkIn();
+    public abstract void checkOut(String borrower, String date);
+    public abstract void checkIn();
 
 }

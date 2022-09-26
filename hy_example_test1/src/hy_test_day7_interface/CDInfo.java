@@ -7,8 +7,8 @@ public class CDInfo {
     public void setRegisterNo(){
 
     }
-    public void setTitle(){
-
+    public void setTitle(String title){
+        this.title = title;
     }
 
     public int getRegisterNo() {
