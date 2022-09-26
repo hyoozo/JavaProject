@@ -3,15 +3,15 @@ package simplephoneinfo;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class PhonebookVer03 {
-    public static void showArr(PhoneInfo[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            try {
-                System.out.println(arr[i].getName());
-            } catch (NullPointerException e) {
-                continue;
-            }
-        }
-    }
+//    public static void showArr(PhoneInfo[] arr) {
+//        for (int i = 0; i < arr.length; i++) {
+//            try {
+//                System.out.println(arr[i].getName());
+//            } catch (NullPointerException e) {
+//                continue;
+//            }
+//        }
+//    }
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         PhoneBookManager pbManager = new PhoneBookManager();
@@ -39,7 +39,7 @@ public class PhonebookVer03 {
 //                pbManager.savePhoneInfo(name, phoneNumber, birthday);
                 pbManager.savePhoneInfo(new PhoneInfo(name, phoneNumber, birthday));
                 System.out.println("데이터 입력이 완료되었습니다.");
-                showArr(pbManager.getPhoneInfos());
+//                showArr(pbManager.getPhoneInfos());
 
             } else if (num == 2) {
                 System.out.println("데이터 검색을 시작합니다.");
@@ -54,8 +54,8 @@ public class PhonebookVer03 {
                 String name = scan.nextLine();
                 pbManager.deletePhoneInfo(name);
 
-                System.out.println("데이터의 삭제가 완료되었습니다.");
-                showArr(pbManager.getPhoneInfos());
+//                System.out.println("데이터의 삭제가 완료되었습니다.");
+//                showArr(pbManager.getPhoneInfos());
             }
         } while (num != 4);
         System.out.println("프로그램을 종료합니다.");

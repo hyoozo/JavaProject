@@ -1,6 +1,6 @@
 package simplephoneinfo;
 public class PhoneBookManager {
-    private final PhoneInfo[] phoneInfos = new PhoneInfo[4];
+    private final PhoneInfo[] phoneInfos = new PhoneInfo[100];
 
 //    public void savePhoneInfo(String name, String phoneNumber, String birthday) {
 //        for (int i = 0; i < phoneInfos.length; i++) {
