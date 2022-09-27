@@ -60,7 +60,6 @@ public class PhoneBookManager {
                 break;
             }
         }
-        System.out.println("데이터 삭제가 완료되었습니다.");
     }
 //    public void deletePhoneInfo(String name) {
 //        for (int i = 0; i < phoneInfos.length; i++) {
