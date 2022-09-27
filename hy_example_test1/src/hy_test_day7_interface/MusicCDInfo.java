@@ -7,7 +7,12 @@ public class MusicCDInfo extends CDInfo{
     private String[] songTitle;
 
 
-    public String toString(String artist,String title, String[] songTitle) {
-        return  artist +" "+ title + Arrays.toString(songTitle) + "음반";
+    public MusicCDInfo(String registerNo, String title, String artist, String[] songTitle) {
+        super(registerNo, title);
+        this.artist = artist;
+        this.songTitle = songTitle;
+    }
+    public String toString() {
+        return  artist +" "+ getTitle() + Arrays.toString(songTitle) + "음반";
     }
 }
