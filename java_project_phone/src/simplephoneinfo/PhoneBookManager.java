@@ -1,6 +1,7 @@
 package simplephoneinfo;
 public class PhoneBookManager {
     private final PhoneInfo[] phoneInfos = new PhoneInfo[100];
+    private int curCnt; //인덱스 제한
 
 //    public void savePhoneInfo(String name, String phoneNumber, String birthday) {
 //        for (int i = 0; i < phoneInfos.length; i++) {

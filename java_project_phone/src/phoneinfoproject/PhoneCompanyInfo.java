@@ -19,4 +19,10 @@ public class PhoneCompanyInfo extends PhoneInfo {
     public void setCompany(String company) {
         this.company = company;
     }
+
+    @Override
+    public void showPhoneInfo() {
+        super.showPhoneInfo();
+        System.out.println("직업 : " +company);
+    }
 }
