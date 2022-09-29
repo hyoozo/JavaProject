@@ -10,6 +10,7 @@ public class PhoneCompanyInfo extends PhoneInfoVer04 {
     public PhoneCompanyInfo(String name, String phoneNumber, String company) {
         super(name, phoneNumber);
         this.company = company;
+
     }
 
     public String getCompany() {
@@ -20,8 +21,14 @@ public class PhoneCompanyInfo extends PhoneInfoVer04 {
         this.company = company;
     }
 
+//    @Override
+//    public void setGroup(String group) {
+//        super.setGroup("동기");
+//    }
+
     @Override
     public void showPhoneInfo() {
+        super.setGroup("동기");
         super.showPhoneInfo();
         System.out.println("직업 : " +company);
     }

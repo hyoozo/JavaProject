@@ -3,6 +3,7 @@ package phoneinfoproject;
 public class PhoneInfoVer04 {
     private String name;
     private String phoneNumber;
+    private String group;
 
     public PhoneInfoVer04() {
 
@@ -11,6 +12,7 @@ public class PhoneInfoVer04 {
     public PhoneInfoVer04(String name, String phoneNumber) {
         this.name = name;
         this.phoneNumber = phoneNumber;
+        this.group = "일반";
     }
 
     public String getName() {
@@ -29,10 +31,20 @@ public class PhoneInfoVer04 {
         this.phoneNumber = phoneNumber;
     }
 
+    public String getGroup() {
+        return group;
+    }
+
+    public void setGroup(String group) {
+        this.group = group;
+    }
+
     public void showPhoneInfo() {
-        System.out.println("[입력된 정보 출력]");
+        System.out.println("*---- "+getGroup()+" ----*");
         System.out.println("이름 : " + name);
         System.out.println("번호 : " + phoneNumber);
+
     }
+
 }
 

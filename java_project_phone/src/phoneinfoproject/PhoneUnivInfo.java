@@ -29,9 +29,14 @@ public class PhoneUnivInfo extends PhoneInfoVer04{
     public void setYear(int year) {
         this.year = year;
     }
+//    @Override
+//    public void setGroup(String group) {
+//        super.setGroup("동료");
+//    }
 
     @Override
     public void showPhoneInfo() {
+        super.setGroup("동료");
         super.showPhoneInfo();
         System.out.println("전공 : "+major);
         System.out.println("학년 : "+year);
