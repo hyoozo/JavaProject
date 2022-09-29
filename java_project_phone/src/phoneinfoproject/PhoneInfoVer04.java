@@ -1,14 +1,14 @@
 package phoneinfoproject;
 
-public class PhoneInfo {
+public class PhoneInfoVer04 {
     private String name;
     private String phoneNumber;
 
-    public PhoneInfo() {
+    public PhoneInfoVer04() {
 
     }
 
-    public PhoneInfo(String name, String phoneNumber) {
+    public PhoneInfoVer04(String name, String phoneNumber) {
         this.name = name;
         this.phoneNumber = phoneNumber;
     }

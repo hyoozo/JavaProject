@@ -3,16 +3,15 @@ package phoneinfoproject;
 import simplephoneinfo.MenuViewer;
 
 public class PhoneBook {
-    private static final int MAX_CNT = 100;
-    private PhoneInfo[] obj ;
-
+    private static final int MAX_CNT = 3;
+    private PhoneInfoVer04[] obj ;
     private int count;
-
     public PhoneBook() {
-        obj = new PhoneInfo[MAX_CNT];
+        obj = new PhoneInfoVer04[MAX_CNT];
         count = 0;
     }
 
+    //데이더 저장
     public void saveData() {
         System.out.print("이름 : ");
         String name = MenuViewer.scan.nextLine();
@@ -21,14 +20,17 @@ public class PhoneBook {
 
         switch (PhonebookVer04.saveNum) {
             case 1:
-                obj[count++] = new PhoneInfo(name, phoneNumber);
+                obj[count++] = new PhoneInfoVer04(name, phoneNumber);
                 break;
             case 2:
                 System.out.print("전공 : ");
-                String majar = MenuViewer.scan.nextLine();
+                String major = MenuViewer.scan.nextLine();
                 System.out.print("학년 : ");
-                int year = MenuViewer.scan.nextInt();
-                obj[count++] = new PhoneUnivInfo(name, phoneNumber, majar, year);
+
+                    int year = MenuViewer.scan.nextInt();
+                    obj[count++] = new PhoneUnivInfo(name, phoneNumber, major, year);
+
+
                 break;
             case 3:
                 System.out.print("회사 : ");
@@ -36,7 +38,7 @@ public class PhoneBook {
                 obj[count++] = new PhoneCompanyInfo(name, phoneNumber, company);
                 break;
         }
-        System.out.println("데이터의 입력이 완료 되었습니다.");
+        System.out.println("데이터의 입력이 완료 되었습니다.\n");
         PhonebookVer04.showArr(obj);
     }
 
@@ -48,7 +50,10 @@ public class PhoneBook {
         for (int i = 0; i < obj.length; i++) {
             if (name.equals(obj[i].getName())){
                 obj[i].showPhoneInfo();
-                System.out.println("데이터 검색이 완료 되었습니다.");
+                System.out.println("데이터 검색이 완료 되었습니다.\n");
+                break;
+            } else {
+                System.out.println("데이터가 없습니다.");
                 break;
             }
         }
@@ -65,18 +70,17 @@ public class PhoneBook {
                 } else {
                     for (int c = i; c < obj.length - 1; c++) {
                         obj[c] = obj[c + 1];
-
                     }
                 }
                 obj[obj.length - 1] = null;
+                System.out.println("데이터 삭제가 완료되었습니다.\n");
+                break;
+            } else {
+                System.out.println("데이터가 없습니다.");
+                System.out.println();
                 break;
             }
         }
-
-        System.out.println("데이터 삭제가 완료되었습니다.");
         PhonebookVer04.showArr(obj);
     }
-
-
 }
-

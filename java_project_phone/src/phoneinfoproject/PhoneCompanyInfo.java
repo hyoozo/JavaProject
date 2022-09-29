@@ -1,6 +1,6 @@
 package phoneinfoproject;
 //회사 동료들의 전화번호 저장
-public class PhoneCompanyInfo extends PhoneInfo {
+public class PhoneCompanyInfo extends PhoneInfoVer04 {
 
     private String company;  //회사
 
