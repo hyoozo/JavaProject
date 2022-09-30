@@ -15,7 +15,8 @@ public class PhonebookVer03 {
         int num = 0;
         do {
             MenuViewer.showMenu();
-            MenuViewer.saveMenu();
+            num = MenuViewer.scan.nextInt();
+            MenuViewer.scan.nextLine();
 
             if (num == 1) {
                 System.out.print("이름 : ");

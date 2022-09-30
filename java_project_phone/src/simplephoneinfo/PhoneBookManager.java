@@ -1,6 +1,6 @@
 package simplephoneinfo;
 public class PhoneBookManager {
-    private final PhoneInfo[] phoneInfos = new PhoneInfo[100];
+    private final PhoneInfo[] phoneInfos = new PhoneInfo[3];
     private int curCnt; //인덱스 제한
 
 //    public void savePhoneInfo(String name, String phoneNumber, String birthday) {
@@ -24,6 +24,9 @@ public class PhoneBookManager {
             if (checkIndex(i)) {
                 this.phoneInfos[i] = phoneInfo;
                 break;
+            } else if ( i == phoneInfos.length -1){
+                System.out.println("저장 공간이 없습니다.");
+                continue;
             }
         }
     }
