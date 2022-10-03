@@ -24,7 +24,7 @@ public class PhonebookVer04 {
         PhoneBook book = new PhoneBook();
 
         do {
-            MenuViewer.showMenu(); //전화번호 메뉴
+            MenuViewer.showMainMenu(); //전화번호 메뉴
             try { //문자 입력시 예외처리
                 num = MenuViewer.scan.nextInt();
             } catch (InputMismatchException e) {
@@ -34,7 +34,7 @@ public class PhonebookVer04 {
             }
 
             if (num == 1) {
-                MenuViewer.saveMenu(); //입력 메뉴
+                MenuViewer.showSubMenu(); //입력 메뉴
                 try { //문자 입력시 예외처리
                     saveNum = MenuViewer.scan.nextInt();
                     System.out.println();

@@ -14,7 +14,7 @@ public class PhonebookVer03 {
 
         int num = 0;
         do {
-            MenuViewer.showMenu();
+            MenuViewer.showMainMenu();
             num = MenuViewer.scan.nextInt();
             MenuViewer.scan.nextLine();
 
