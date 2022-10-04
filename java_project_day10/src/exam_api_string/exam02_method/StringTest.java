@@ -1,10 +1,9 @@
 package exam_api_string.exam02_method;
 
-import java.util.Calendar;
-
+import java.time.LocalDate;
 public class StringTest {
     public static void main(String[] args) {
-        String ssn = "920606-1234561";
+        String ssn = "921004-2033331";
         /* 성별을 구하는 메서드 선언 및 호출 .getGender()
         System.out.printf("당신의 성별 : %s\n",메서드 호출);
 
@@ -14,7 +13,7 @@ public class StringTest {
         System.out.printf("당신의 성별 : %s\n",getGender(ssn));
 
         /* 나이를 구하는 메서드 선언 및 호출*/
-//        System.out.println("당신의 나이는 : " + getAge(ssn));
+        System.out.println("당신의 나이는 : " + getAge(ssn));
 
         String fileName = "test.txt";
         System.out.println("파일명 : " +fileName);
@@ -31,14 +30,22 @@ public class StringTest {
             gender = "남자";
         } else if (g.equals("2") || g.equals("4")) {
             gender = "여자";
+        } else {
+            gender = "외국인";
         }
         return gender;
     }
 
     public static int getAge(String ssn){
-        int age = Integer.parseInt(ssn.substring(0,2));
+        LocalDate now = LocalDate.now();
 
-//        age = (date.get(Calendar.YEAR))-year + 1 ;
+        char h = ssn.charAt(7);
+        int age = Integer.parseInt(ssn.substring(0,2));
+        if (h == '1' || h == '2'){
+            age = now.getYear()-(1900+age)+1;
+        } else if (h == '3' || h == '4') {
+            age = now.getYear()-(2000+age)+1;
+        }
         return age;
     }
 
