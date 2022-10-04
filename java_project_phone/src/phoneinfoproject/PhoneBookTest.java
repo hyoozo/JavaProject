@@ -49,7 +49,7 @@ public class PhoneBookTest {
                     break;
             }
             System.out.println("데이터의 입력이 완료 되었습니다.\n");
-            PhonebookVer04.showArr(obj);
+            PhonebookVerTest04.showArr(obj);
         }
     }
 
@@ -60,15 +60,16 @@ public class PhoneBookTest {
         System.out.print("이름 : ");
         String name = MenuViewer.scan.nextLine();
         for (int i = 0; i < obj.length; i++) {
-            if (name.equals(obj[i].getName())){
-
+            if (obj[i] == null){
+                System.out.println("없는 이름입니다. 전화번호 리스트를 확인하세요.");
+                break;
+            } else if (name.equals(obj[i].getName())){
                 obj[i].showPhoneInfo();
                 System.out.println("*-------------*\n");
                 System.out.println("데이터 검색이 완료 되었습니다.\n");
                 break;
             }
         }
-        System.out.println("검색 결과가 없습니다.");
     }
 
     //데이터 삭제
@@ -77,7 +78,10 @@ public class PhoneBookTest {
         System.out.print("이름 : ");
         String name = MenuViewer.scan.nextLine();
         for (int i = 0; i < obj.length; i++) {
-            if (name.equals(obj[i].getName())) {
+            if(obj[i] == null){
+                System.out.println("없는 이름입니다. 전화번호 리스트를 확인하세요.");
+                break;
+            } else if (name.equals(obj[i].getName())) {
                 if (i == obj.length - 1) {
                     obj[i] = null;
                 } else {
@@ -91,6 +95,6 @@ public class PhoneBookTest {
                 break;
             }
         }
-        PhonebookVer04.showArr(obj);
+        PhonebookVerTest04.showArr(obj);
     }
 }
