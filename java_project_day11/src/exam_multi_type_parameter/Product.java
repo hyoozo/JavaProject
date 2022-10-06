@@ -30,5 +30,8 @@ public class Product <T, M> {
     @Override
     public String toString() {
         return "kind : " + kind.getClass().getSimpleName().toUpperCase() + ", model : " + model;
+                                            //getName : 패키지명과 클래스명을 다 가져온다
+                                            //getSimpleName : 클래스명만 가져온다.
+                                                            //toUpperCase : 앞에 클래스명을 가져오되 대문자로 변환하겠다는 의미
     }
 }

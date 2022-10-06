@@ -4,25 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="249c8315-45f4-4968-ba77-075c5b4a5078" name="변경" comment="9월 30일 수업-3">
-      <change afterPath="$PROJECT_DIR$/java_project_day10/src/exam_api_stringbuffer/WordReplace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day10/src/exam_api_stringbuffer/exam01_math/MathExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day11/java_project_day11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_generic_type/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_generic_type/BoxExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_generic_type_book/generic_type/BagTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_multi_type_parameter/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_multi_type_parameter/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_multi_type_parameter/ProductExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_multi_type_parameter/SmartPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_multi_type_parameter/Tv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_none_generic_type/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_none_generic_type/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_none_generic_type/BoxExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/2022-09-28__8_54__________.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/2022-09-28_오전_8_54,_업데이트_전에_커밋되지_않은_변경_내용_[변경]/shelved.patch" beforeDir="false" />
+    <list default="true" id="249c8315-45f4-4968-ba77-075c5b4a5078" name="변경" comment="10월 05일 수업내용">
+      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_generic_type/MyMathExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_generic_type_book/generic_constructor/GenericConstructorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_generic_type_book/generic_interface/GenericInterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_generic_type_book/generic_interface/Maximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_generic_wildcard/WildCardExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/2022-09-29__8_33__________.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/2022-09-29_오전_8_33,_업데이트_전에_커밋되지_않은_변경_내용_[변경]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project_day11/src/exam_multi_type_parameter/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day11/src/exam_multi_type_parameter/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project_day11/src/exam_multi_type_parameter/ProductExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day11/src/exam_multi_type_parameter/ProductExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +70,13 @@
       <recent name="hy_test_day4" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.BagTest">
-    <configuration name="BagTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_generic_type_book.generic_type.BagTest" />
+  <component name="RunManager" selected="애플리케이션.WildCardExample">
+    <configuration name="GenericConstructorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_generic_type_book.generic_constructor.GenericConstructorTest" />
       <module name="java_project_day11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam_generic_type_book.generic_type.*" />
+          <option name="PATTERN" value="exam_generic_type_book.generic_constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,8 +84,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BoxExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_generic_type.BoxExample" />
+    <configuration name="GenericInterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_generic_type_book.generic_interface.GenericInterfaceTest" />
+      <module name="java_project_day11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam_generic_type_book.generic_interface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyMathExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_generic_type.MyMathExample" />
       <module name="java_project_day11" />
       <extension name="coverage">
         <pattern>
@@ -118,25 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordReplace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_api_stringbuffer.WordReplace" />
-      <module name="java_project_day10" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exam_api_stringbuffer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="exam_none_generic_type.BoxExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_none_generic_type.BoxExample" />
+    <configuration name="WildCardExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_generic_wildcard.WildCardExample" />
       <module name="java_project_day11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam_none_generic_type.*" />
+          <option name="PATTERN" value="exam_generic_wildcard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.BagTest" />
+        <item itemvalue="애플리케이션.WildCardExample" />
+        <item itemvalue="애플리케이션.GenericConstructorTest" />
+        <item itemvalue="애플리케이션.GenericInterfaceTest" />
+        <item itemvalue="애플리케이션.MyMathExample" />
         <item itemvalue="애플리케이션.ProductExample" />
-        <item itemvalue="애플리케이션.BoxExample" />
-        <item itemvalue="애플리케이션.exam_none_generic_type.BoxExample" />
-        <item itemvalue="애플리케이션.WordReplace" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664512143635</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="10월 05일 수업내용">
+      <created>1664950842495</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664950842495</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,7 +218,8 @@
     <MESSAGE value="9월 14일 수업내용" />
     <MESSAGE value="9월 30일 수업" />
     <MESSAGE value="9월 30일 수업-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="9월 30일 수업-2" />
+    <MESSAGE value="10월 05일 수업내용" />
+    <option name="LAST_COMMIT_MESSAGE" value="10월 05일 수업내용" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -349,6 +349,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java_project_day11/src/exam_generic_type_book/generic_type/BagTest.java</url>
+          <line>75</line>
+          <properties class="exam_generic_type_book.generic_type.BagTest" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java_project_day11/src/exam_generic_type_book/generic_constructor/GenericConstructorTest.java</url>
+          <line>13</line>
+          <properties class="exam_generic_type_book.generic_constructor.GenericConstructorTest" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/hy_example_test1/src/hy_test_day4/Day4_Exam7_1.java</url>
