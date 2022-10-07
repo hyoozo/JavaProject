@@ -17,7 +17,7 @@ public class PhoneBookTest {
     }
     //데이더 저장
     public void saveData() throws OutOfBoundException {
-        if (obj[2] != null){
+        if (obj[MAX_CNT-1] != null){
             System.out.println("저장 공간이 없습니다. 연락처를 삭제하거나 종료해주세요.");
         } else {
             MenuViewer.showSubMenu();
