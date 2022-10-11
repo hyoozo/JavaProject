@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="249c8315-45f4-4968-ba77-075c5b4a5078" name="변경" comment="10월 06일 수업내용">
-      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_collection_list/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_collection_list/ArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_collection_list/ArrayListTest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_collection_list/IteratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_collection_list/IteratorTest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_collection_list/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/2022-09-30__8_42__________.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/2022-09-30_오전_8_42,_업데이트_전에_커밋되지_않은_변경_내용_[변경]/shelved.patch" beforeDir="false" />
+    <list default="true" id="249c8315-45f4-4968-ba77-075c5b4a5078" name="변경" comment="10월 07일 수업내용">
+      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_collection_list/ArrayListExample02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_collection_list/ArrayListExample03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_collection_set/API_Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_collection_set/FindDupplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_collection_set/FindDupplication_Mth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_collection_set/HashSetExample02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_collection_set/HashSetExample03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_collection_set/Key.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_collection_set/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_collection_set/SetInterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_map/WordFreq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day11/src/exam_map/WordFreq_mth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project_phone/src/phoneinfoproject/OutOfBoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_phone/src/phoneinfoproject/OutOfBoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project_phone/src/phoneinfoproject/PhoneBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_phone/src/phoneinfoproject/PhoneBookTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -44,20 +51,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Project.color": "2f0339",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/phoneproject",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.색 구성표 글꼴"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;2f0339&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/phoneproject&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.색 구성표 글꼴&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/java_project_day2/src" />
@@ -71,9 +78,22 @@
       <recent name="hy_test_day4" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ArrayListTest">
-    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_collection_list.ArrayListTest" />
+  <component name="RunManager" selected="애플리케이션.FindDupplication">
+    <configuration name="API_Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_collection_set.API_Example" />
+      <module name="java_project_day11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam_collection_set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayListExample02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_collection_list.ArrayListExample02" />
       <module name="java_project_day11" />
       <extension name="coverage">
         <pattern>
@@ -85,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_collection_list.ArrayListTest02" />
+    <configuration name="FindDupplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_collection_set.FindDupplication" />
       <module name="java_project_day11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam_collection_list.*" />
+          <option name="PATTERN" value="exam_collection_set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_collection_list.IteratorTest" />
+    <configuration name="HashSetExample03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_collection_set.HashSetExample03" />
       <module name="java_project_day11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam_collection_list.*" />
+          <option name="PATTERN" value="exam_collection_set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,25 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorTest02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_collection_list.IteratorTest02" />
+    <configuration name="SetInterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_collection_set.SetInterfaceTest" />
       <module name="java_project_day11" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam_collection_list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WildCardExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_generic_wildcard.WildCardExample" />
-      <module name="java_project_day11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exam_generic_wildcard.*" />
+          <option name="PATTERN" value="exam_collection_set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.ArrayListTest" />
-        <item itemvalue="애플리케이션.IteratorTest02" />
-        <item itemvalue="애플리케이션.IteratorTest" />
-        <item itemvalue="애플리케이션.ArrayListTest02" />
-        <item itemvalue="애플리케이션.WildCardExample" />
+        <item itemvalue="애플리케이션.FindDupplication" />
+        <item itemvalue="애플리케이션.API_Example" />
+        <item itemvalue="애플리케이션.HashSetExample03" />
+        <item itemvalue="애플리케이션.ArrayListExample02" />
+        <item itemvalue="애플리케이션.SetInterfaceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665037072236</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="10월 07일 수업내용">
+      <created>1665123482600</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665123482600</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,7 +242,8 @@
     <MESSAGE value="9월 30일 수업-2" />
     <MESSAGE value="10월 05일 수업내용" />
     <MESSAGE value="10월 06일 수업내용" />
-    <option name="LAST_COMMIT_MESSAGE" value="10월 06일 수업내용" />
+    <MESSAGE value="10월 07일 수업내용" />
+    <option name="LAST_COMMIT_MESSAGE" value="10월 07일 수업내용" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -385,6 +400,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java_project_day11/src/exam_collection_set/HashSetExample03.java</url>
+          <line>13</line>
+          <properties class="exam_collection_set.HashSetExample03" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/hy_example_test1/src/hy_test_day4/Day4_Exam7_1.java</url>
