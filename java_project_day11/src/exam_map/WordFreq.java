@@ -1,8 +1,6 @@
 package exam_map;
 
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 /*
 [요구사항]
@@ -19,11 +17,25 @@ public class WordFreq {
         //Map 타입으로 확인하기??
         //TreeMap 은 인터페이스가 구현되어 있는 클래스만 담을 수 있다.
 
-        Set<String> ch = new HashSet<>();
-        String[] sample = {"to", "be", "or", "not", "to", "bo", "is", "a", "problem"};
-        //마지막으로 준 키값이 value 값이 된다...?
+        String[] sample = {"to", "be", "or", "not", "to", "be", "is", "a", "problem"};
 
-        //하나도 모르겠다 너무 어렵다어리ㅏ멍리ㅏ머이러으아아아아아아ㅏ앙
+        HashMap map = new HashMap();
 
+        for (int i = 0; i < sample.length; i++) {
+            if (map.containsKey(sample[i])) {
+                int value = (int) map.get(sample[i]);
+                map.put(sample[i], value + 1);
+            } else {
+                map.put(sample[i], 1);
+            }
+        }
+        System.out.println("총 단어 수 : " + map.size());
+        Iterator it = map.entrySet().iterator();
+
+        while (it.hasNext()) {
+            Map.Entry entry = (Map.Entry) it.next();
+            int value = (int) entry.getValue();
+            System.out.print(entry.getKey() + " = " + value +", ");
+        }
     }
 }

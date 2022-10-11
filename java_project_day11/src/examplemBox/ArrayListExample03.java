@@ -1,4 +1,4 @@
-package exam_collection_list;
+package examplemBox;
 
 import java.util.*;
 

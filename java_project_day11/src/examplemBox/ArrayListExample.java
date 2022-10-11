@@ -1,4 +1,4 @@
-package exam_collectionTest;
+package examplemBox;
 
 import java.util.*;
 
@@ -17,11 +17,24 @@ public class ArrayListExample {
         double sum = 0;
 
         //점수를 받는 반복문
-        System.out.println("심사 위원 점수를 입력하세요. ");
-        for (int i = 0; i < 10; i++) {
-            System.out.print((i + 1) + ". 심사위원의 점수 : ");
+//        System.out.println("심사 위원 점수를 입력하세요. ");
+//        for (int i = 0; i < 10; i++) {
+//            System.out.print((i + 1) + ". 심사위원의 점수 : ");
+//            num = sc.nextDouble();
+//            score.add(num);
+//        }
+        int i  = 1;
+        while (true) {
+            System.out.print(i+". 심사위원의 점수 : " );
             num = sc.nextDouble();
+            if (num < 0 || num > 10) {
+                continue;
+            }
             score.add(num);
+            i++;
+            if (i > 10) {
+                break;
+            }
         }
 
         //최고 점수와 최저 점수 삭제

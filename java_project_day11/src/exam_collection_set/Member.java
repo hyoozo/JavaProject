@@ -18,6 +18,7 @@ public class Member {
     }
     // 나이 비교
     /*
+    @Override
     public boolean equals(Object obj) {   //obj로 부터 상속받은 맴버
         if (obj instanceof Member) {
             Member member = (Member) obj;  //맴버의 접근이 가능하게 변환.
@@ -34,6 +35,7 @@ public class Member {
      */
 
     //이름 비교
+
     @Override
     public boolean equals(Object obj) {
         if (obj instanceof Member) {
@@ -47,8 +49,24 @@ public class Member {
 
     @Override
     public int hashCode() {
-        return name.hashCode();
+        return name.hashCode() ;
     }
 
+    //이름과 나이가 둘다 같을때 비교
+    /*
+    public boolean equals(Object obj) {
+        if (obj instanceof Member) {
+            Member member = (Member) obj;
+            return member.name.equals(name) && (member.age == age);
+        } else {
+            return false;
+        }
+    }
 
+    @Override
+    public int hashCode() {
+        return name.hashCode() + age;
+    }
+
+     */
 }
