@@ -41,6 +41,7 @@ public class Fruit implements Comparable<Fruit> {
 //        }
 //        return 0;
 //    }
+    @Override
     public int compareTo(Fruit o) {  //정렬할때 기준이 가격순이 된다.
         if (price < o.price){
             return -1;

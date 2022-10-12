@@ -61,6 +61,14 @@ public class FruitSortTest {
         treeSet.add(new Fruit("fff", 2323));
         treeSet.add(new Fruit("asdf", 500000));
 
+        TreeMap treeMap = new TreeMap();
+        treeMap.put(
+                1, new Fruit("vheh", 225555552)
+        );
+        treeMap.put(
+                2, new Fruit("fff", 2323)
+        );
+
         //동일원소 저장 안됨.
 
         Iterator<Fruit> it = treeSet.iterator();

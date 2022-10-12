@@ -1,8 +1,6 @@
 package exam_collection_set;
 
-import java.util.Iterator;
-import java.util.SortedSet;
-import java.util.TreeSet;
+import java.util.*;
 
 public class ScoreTreeSetTest {
     public static void main(String[] args) {
@@ -27,35 +25,46 @@ public class ScoreTreeSetTest {
         //TreeSet 클래스는 NavigableSet<E> 인터페이스를 구현한 구현 클래스.
         //NavigableSet<E> 인터페이스는
         //SortedSet<E> 인터페이스를 상속받은 인터페이스
-        SortedSet<Member> mSet = new TreeSet<>();
-        mSet.add(new Member("홍길동", 30));  //에러남
-        mSet.add(new Member("김철수", 34));
-        mSet.add(new Member("이민수", 29));
-        mSet.add(new Member("김희진", 45));
-        mSet.add(new Member("홍길동", 30));
+//        SortedSet<Member> mSet = new TreeSet<>();
+//        mSet.add(new Member("홍길동", 30));  //에러남
+//        mSet.add(new Member("김철수", 34));
+//        mSet.add(new Member("이민수", 29));
+//        mSet.add(new Member("김희진", 45));
+//        mSet.add(new Member("홍길동", 30));
+//
+//        Iterator<Member> iter = mSet.iterator();
+//        while (iter.hasNext()) {
+//            System.out.println(iter.next());
+//        }
 
-        Iterator<Member> iter = mSet.iterator();
-        while (iter.hasNext()) {
-            System.out.println(iter.next());
-        }
+//        TreeSet<Score> tSet = new TreeSet<>();
+//        tSet.add(new Score(41,20));
+//        tSet.add(new Score(71,78));
+//        tSet.add(new Score(11,12));
+//        tSet.add(new Score(31,32));
+//
+//        System.out.println("\n 반복자를 이용하여 출력 - 오름차순");
+//        Iterator<Score> it = tSet.iterator();
+//        while (it.hasNext()) {
+//            System.out.println(it.next());
+//        }
+//
+//        System.out.println("\nq반복자를 이요하여 출력 - 내림차순");
+//        SortedSet<Score> sSet = tSet.descendingSet();
+//        Iterator<Score> sIt = sSet.iterator(
+//
+//        );
+//        while (sIt.hasNext()) {
+//            System.out.println(sIt.next());
+//        }
 
-        TreeSet<Score> tSet = new TreeSet<>();
-        tSet.add(new Score(21, 22));
-        tSet.add(new Score(71,78));
-        tSet.add(new Score(11,12));
-        tSet.add(new Score(31,32));
+        HashSet<Score> hSet = new HashSet<>();
+        hSet.add(new Score(41,20));
+        hSet.add(new Score(71,78));
+        hSet.add(new Score(11,12));
+        hSet.add(new Score(31,32));
 
-        System.out.println("\n 반복자를 이용하여 출력 - 오름차순");
-        Iterator<Score> it = tSet.iterator();
-        while (it.hasNext()) {
-            System.out.println(it.next());
-        }
 
-        System.out.println("\nq반복자를 이요하여 출력 - 내림차순");
-        SortedSet<Score> sSet = tSet.descendingSet();
-        Iterator<Score> sIt = sSet.iterator();
-        while (sIt.hasNext()) {
-            System.out.println(sIt.next());
-        }
+
     }
 }
