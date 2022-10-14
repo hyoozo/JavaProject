@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="249c8315-45f4-4968-ba77-075c5b4a5078" name="변경" comment="10월 11일 수업내용(브랜치)">
-      <change afterPath="$PROJECT_DIR$/jave_project_day12/jave_project_day12.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jave_project_day12/src/exam_class/InputOutputStreamExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jave_project_day12/src/exam_class/InputOutputStreamExample02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jave_project_day12/src/exam_inputstream_read/ReadExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jave_project_day12/src/exam_inputstream_read/ReadExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jave_project_day12/src/exam_outputstream_write/WriteExample1.java" afterDir="false" />
+    <list default="true" id="249c8315-45f4-4968-ba77-075c5b4a5078" name="변경" comment="10울 13일 수업 내용 (IO입출력 Stream)">
+      <change afterPath="$PROJECT_DIR$/java_project_day11/src/examplemBox/Coustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day11/src/examplemBox/CustomerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day12/src/exam_buffered_stream/BufferedInputStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day12/src/exam_buffered_stream/BufferedOutputStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day12/src/exam_data_stream/DataStreamTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project_day11/src/examplemBox/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day11/src/examplemBox/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jave_project_day12/jave_project_day12.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day12/java_project_day12.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jave_project_day12/src/exam_class/InputOutputStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day12/src/exam_class/InputOutputStreamExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jave_project_day12/src/exam_class/InputOutputStreamExample02.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day12/src/exam_class/InputOutputStreamExample02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jave_project_day12/src/exam_inputstream_read/ReadExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day12/src/exam_inputstream_read/ReadExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jave_project_day12/src/exam_inputstream_read/ReadExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day12/src/exam_inputstream_read/ReadExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jave_project_day12/src/exam_outputstream_write/WriteExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day12/src/exam_outputstream_write/WriteExample1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +80,7 @@
       <recent name="$PROJECT_DIR$/java_project_day1/src" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="examplemBox" />
       <recent name="exam_collections" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -86,10 +91,49 @@
       <recent name="hy_test_exam" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.InputOutputStreamExample02">
+  <component name="RunManager" selected="애플리케이션.CustomerManager">
+    <configuration name="BufferedInputStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_buffered_stream.BufferedInputStreamExample" />
+      <module name="java_project_day12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam_buffered_stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BufferedOutputStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_buffered_stream.BufferedOutputStreamExample" />
+      <module name="java_project_day12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam_buffered_stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examplemBox.CustomerManager" />
+      <module name="java_project_day11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examplemBox.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InputOutputStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exam_class.InputOutputStreamExample" />
-      <module name="jave_project_day12" />
+      <module name="java_project_day12" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exam_class.*" />
@@ -102,7 +146,7 @@
     </configuration>
     <configuration name="InputOutputStreamExample02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exam_class.InputOutputStreamExample02" />
-      <module name="jave_project_day12" />
+      <module name="java_project_day12" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exam_class.*" />
@@ -113,52 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_inputstream_read.ReadExample1" />
-      <module name="jave_project_day12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exam_inputstream_read.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="examplemBox.Test" />
-      <module name="java_project_day11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="examplemBox.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WriteExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_outputstream_write.WriteExample1" />
-      <module name="jave_project_day12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exam_outputstream_write.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.CustomerManager" />
+        <item itemvalue="애플리케이션.BufferedInputStreamExample" />
+        <item itemvalue="애플리케이션.BufferedOutputStreamExample" />
         <item itemvalue="애플리케이션.InputOutputStreamExample02" />
         <item itemvalue="애플리케이션.InputOutputStreamExample" />
-        <item itemvalue="애플리케이션.ReadExample1" />
-        <item itemvalue="애플리케이션.WriteExample1" />
-        <item itemvalue="애플리케이션.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665123482600</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="10울 13일 수업 내용 (IO입출력 Stream)">
+      <created>1665641830322</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665641830322</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,7 +263,9 @@
     <MESSAGE value="10월 05일 수업내용" />
     <MESSAGE value="10월 06일 수업내용" />
     <MESSAGE value="10월 07일 수업내용" />
-    <option name="LAST_COMMIT_MESSAGE" value="10월 07일 수업내용" />
+    <MESSAGE value="10울 13일 수업 내용" />
+    <MESSAGE value="10울 13일 수업 내용 (IO입출력 Stream)" />
+    <option name="LAST_COMMIT_MESSAGE" value="10울 13일 수업 내용 (IO입출력 Stream)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -446,6 +460,11 @@
           <url>file://$PROJECT_DIR$/java_project_day11/src/exam_collections/FruitSortTest.java</url>
           <line>6</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java_project_day12/src/exam_class/InputOutputStreamExample02.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ClassCastException" package="java.lang" />
