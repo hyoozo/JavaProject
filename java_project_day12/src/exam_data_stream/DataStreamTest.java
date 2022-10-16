@@ -4,7 +4,7 @@ import java.io.*;
 
 public class DataStreamTest {
     public static void main(String[] args) {
-        double[] prices = {19.99,9.97,23.89,4.23};
+        double[] prices = {19.99, 9.97, 23.89, 4.23};
         int[] units = {12, 8, 23, 56};
         String[] desce = {"Apple", "Orange", "banana", "grape"};
         /*
@@ -33,5 +33,38 @@ public class DataStreamTest {
                 e.printStackTrace();
             }
         }
+        double price;
+        int unit;
+        String desc;
+        double total = 0.0;
+
+        try {
+            in = new DataInputStream(new BufferedInputStream(new FileInputStream("base.dat")));
+            System.out.println("------------ Your Order's------------");
+            while (in.available() > 0) {
+                price = in.readDouble();
+                unit = in.readInt();
+                desc = in.readUTF();
+                System.out.printf("price: %.2f, unit: %d, description: %s\n", price, unit, desc);
+                total += (unit * price);
+            }
+        } catch (IOException io) {
+            io.printStackTrace();
+        } finally {
+            try {
+                if (in != null) {
+                    in.close();
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        System.out.println("total: "+total);
+        //------------ Your Order's------------
+        //price: 19.99, unit: 12, description: Apple
+        //price: 9.97, unit: 8, description: Orange
+        //price: 23.89, unit: 23, description: banana
+        //price: 4.23, unit: 56, description: grape
+        //total: 1105.99
     }
 }
