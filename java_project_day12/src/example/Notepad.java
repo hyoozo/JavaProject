@@ -113,11 +113,7 @@ public class Notepad {
                     }
                 }
                 //빈 문자열을 입력받아 반복문 3을 탈출했다면 입력이 종료된 것이므로 파일을 닫아줍니다.
-                try {
-                    writer.close();
-                } catch (IOException e) {
-                    System.out.println("파일을 닫는 데 실패했습니다.");
-                }
+
             }
 
             // 종료를 선택한 경우
