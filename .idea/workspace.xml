@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="249c8315-45f4-4968-ba77-075c5b4a5078" name="변경" comment="10월 11일 수업내용(브랜치)">
-      <change afterPath="$PROJECT_DIR$/java_project_day11/src/examplemBox/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day11/src/examplemBox/HashToArraylist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day12/src/exam_class/FileExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day12/src/exam_class/FileTwoTest.java" afterDir="false" />
+    <list default="true" id="249c8315-45f4-4968-ba77-075c5b4a5078" name="변경" comment="10월 14일 수업 Reader와 Writer">
+      <change afterPath="$PROJECT_DIR$/java_project_day12/src/exam_object_stream/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day12/src/exam_object_stream/AccountExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day12/src/exam_printstream/PrintStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day12/src/exam_printstream/PrintWriterExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day12/src/exam_reader_read/ReadExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day12/src/exam_scanner/ScannerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day12/src/example/Diary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day12/src/example/Notepad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day12/src/example/NotepadManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day12/src/example/NotepadTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project_day11/src/examplemBox/CustomerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day11/src/examplemBox/CustomerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project_day12/src/exam_buffered_stream/BufferedOutputStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day12/src/exam_buffered_stream/BufferedOutputStreamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project_day12/src/exam_data_stream/DataStreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day12/src/exam_data_stream/DataStreamTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project_day12/src/exam_class/FileExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day12/src/exam_class/FileExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project_day12/src/exam_class/FileTwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day12/src/exam_class/FileTwoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +80,7 @@
       <recent name="$PROJECT_DIR$/java_project_day1/src" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="examplemBox" />
       <recent name="exam_collections" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -85,13 +91,13 @@
       <recent name="hy_test_exam" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.FileTwoTest">
-    <configuration name="BufferedOutputStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_buffered_stream.BufferedOutputStreamExample" />
+  <component name="RunManager" selected="애플리케이션.Notepad">
+    <configuration name="Notepad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.Notepad" />
       <module name="java_project_day12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam_buffered_stream.*" />
+          <option name="PATTERN" value="example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,25 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="examplemBox.CustomerTest" />
-      <module name="java_project_day11" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="examplemBox.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_data_stream.DataStreamTest" />
+    <configuration name="PrintStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_printstream.PrintStreamExample" />
       <module name="java_project_day12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam_data_stream.*" />
+          <option name="PATTERN" value="exam_printstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileTwoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_class.FileTwoTest" />
+    <configuration name="PrintWriterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_printstream.PrintWriterExample" />
       <module name="java_project_day12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam_class.*" />
+          <option name="PATTERN" value="exam_printstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +131,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashToArraylist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="examplemBox.HashToArraylist" />
-      <module name="java_project_day11" />
+    <configuration name="ReadExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_reader_read.ReadExample1" />
+      <module name="java_project_day12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="examplemBox.*" />
+          <option name="PATTERN" value="exam_reader_read.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScannerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_scanner.ScannerTest" />
+      <module name="java_project_day12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exam_scanner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.FileTwoTest" />
-        <item itemvalue="애플리케이션.HashToArraylist" />
-        <item itemvalue="애플리케이션.CustomerTest" />
-        <item itemvalue="애플리케이션.DataStreamTest" />
-        <item itemvalue="애플리케이션.BufferedOutputStreamExample" />
+        <item itemvalue="애플리케이션.Notepad" />
+        <item itemvalue="애플리케이션.ScannerTest" />
+        <item itemvalue="애플리케이션.PrintWriterExample" />
+        <item itemvalue="애플리케이션.PrintStreamExample" />
+        <item itemvalue="애플리케이션.ReadExample1" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665123482600</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="10울 13일 수업 내용 (IO입출력 Stream)">
+      <created>1665641830322</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665641830322</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,7 +263,9 @@
     <MESSAGE value="10월 05일 수업내용" />
     <MESSAGE value="10월 06일 수업내용" />
     <MESSAGE value="10월 07일 수업내용" />
-    <option name="LAST_COMMIT_MESSAGE" value="10월 07일 수업내용" />
+    <MESSAGE value="10울 13일 수업 내용" />
+    <MESSAGE value="10울 13일 수업 내용 (IO입출력 Stream)" />
+    <option name="LAST_COMMIT_MESSAGE" value="10울 13일 수업 내용 (IO입출력 Stream)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -258,7 +273,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java_project_day3/src/exam_while/WhileExample.java</url>
           <line>3</line>
-          <properties class="exam_while.WhileExample">
+          <properties class="exam_while.WhileExample" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -267,7 +282,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/hy_example_test1/src/hy_test_day4/Day4_Exam2.java</url>
           <line>5</line>
-          <properties class="hy_test_day4.Day4_Exam2">
+          <properties class="hy_test_day4.Day4_Exam2" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -276,7 +291,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java_project_phone/src/simplephoneinfo/PhonebookVer01.java</url>
           <line>2</line>
-          <properties class="simplephoneinfo.PhonebookVer01">
+          <properties class="simplephoneinfo.PhonebookVer01" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -285,7 +300,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java_project_day6/src/exam_Information/Manager.java</url>
           <line>32</line>
-          <properties class="exam_Information.Manager">
+          <properties class="exam_Information.Manager" method="toString">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -294,7 +309,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java_project_phone/src/simple_smartphone/SmartPhone.java</url>
           <line>35</line>
-          <properties class="simple_smartphone.SmartPhone">
+          <properties class="simple_smartphone.SmartPhone" method="getName">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -303,7 +318,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java_project_phone/src/simple_smartphone/SmartPhoneTestVer02.java</url>
           <line>3</line>
-          <properties class="simple_smartphone.SmartPhoneTestVer02">
+          <properties class="simple_smartphone.SmartPhoneTestVer02" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -312,7 +327,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java_project_day6/src/exam_Information/EmployeeTest.java</url>
           <line>3</line>
-          <properties class="exam_Information.EmployeeTest">
+          <properties class="exam_Information.EmployeeTest" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -321,7 +336,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/hy_example_test1/src/hy_test_day6_super/PersonTest.java</url>
           <line>3</line>
-          <properties class="hy_test_day6_super.PersonTest">
+          <properties class="hy_test_day6_super.PersonTest" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -330,7 +345,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java_project_day7/src/exam_inner_class/MessengerTest.java</url>
           <line>5</line>
-          <properties class="exam_inner_class.MessengerTest">
+          <properties class="exam_inner_class.MessengerTest" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -339,7 +354,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java_project_day7/src/exam_enum/two/EnumTest02.java</url>
           <line>15</line>
-          <properties class="exam_enum.two.EnumTest02">
+          <properties class="exam_enum.two.EnumTest02" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -348,7 +363,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java_project_day7/src/exam_try_catch_finally/DivideByZeroTest2.java</url>
           <line>3</line>
-          <properties class="exam_try_catch_finally.DivideByZeroTest2">
+          <properties class="exam_try_catch_finally.DivideByZeroTest2" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -357,7 +372,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java_project_day10/src/exam_api_string/exam02_method/StringExample.java</url>
           <line>3</line>
-          <properties class="exam_api_string.exam02_method.StringExample">
+          <properties class="exam_api_string.exam02_method.StringExample" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -366,7 +381,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java_project_day10/src/exam_api_stringbuffer/exam01_method/StringBufferExample.java</url>
           <line>3</line>
-          <properties class="exam_api_stringbuffer.exam01_method.StringBufferExample">
+          <properties class="exam_api_stringbuffer.exam01_method.StringBufferExample" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -375,7 +390,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java_project_day11/src/exam_multi_type_parameter/ProductExample.java</url>
           <line>3</line>
-          <properties class="exam_multi_type_parameter.ProductExample">
+          <properties class="exam_multi_type_parameter.ProductExample" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -384,7 +399,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java_project_day11/src/exam_generic_type_book/generic_type/BagTest.java</url>
           <line>75</line>
-          <properties class="exam_generic_type_book.generic_type.BagTest">
+          <properties class="exam_generic_type_book.generic_type.BagTest" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -393,7 +408,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java_project_day11/src/exam_generic_type_book/generic_constructor/GenericConstructorTest.java</url>
           <line>13</line>
-          <properties class="exam_generic_type_book.generic_constructor.GenericConstructorTest">
+          <properties class="exam_generic_type_book.generic_constructor.GenericConstructorTest" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -402,7 +417,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/java_project_day11/src/exam_collection_list/ArrayListTest.java</url>
           <line>8</line>
-          <properties class="exam_collection_list.ArrayListTest">
+          <properties class="exam_collection_list.ArrayListTest" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -418,18 +433,9 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/java_project_day12/src/exam_buffered_stream/BufferedOutputStreamExample.java</url>
-          <line>8</line>
-          <properties class="exam_buffered_stream.BufferedOutputStreamExample" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/java_project_day12/src/exam_class/FileTwoTest.java</url>
-          <line>14</line>
-          <properties class="exam_class.FileTwoTest" method="main">
+          <url>file://$PROJECT_DIR$/java_project_day12/src/exam_printstream/PrintStreamExample.java</url>
+          <line>6</line>
+          <properties class="exam_printstream.PrintStreamExample" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -465,9 +471,9 @@
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java_project_day12/src/exam_class/InputOutputStreamExample.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="35" />
+          <url>file://$PROJECT_DIR$/java_project_day12/src/exam_class/InputOutputStreamExample02.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ClassCastException" package="java.lang" />

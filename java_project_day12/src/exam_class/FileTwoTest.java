@@ -18,13 +18,15 @@ public class FileTwoTest {
         InputStream writer = null;
 
         try {
-            test = new FileOutputStream("/Users/j/Desktop/StreamTestFile/test.txt");
+//            test = new FileOutputStream("/Users/j/Desktop/StreamTestFile/test.txt");
+            test = new FileOutputStream("C:/Temp/test.txt");
             byte[] data = "가장 위대한 영광은 한번도 실패하지 않음이 아니라 실패할 때마다 다시 일어서는 데에 있다.".getBytes();
             for (int i = 0; i < data.length; i++) {
                 test.write(data[i]);
             }
 
-            result = new FileOutputStream("/Users/j/Desktop/StreamTestFile/result.txt");
+//            result = new FileOutputStream("/Users/j/Desktop/StreamTestFile/result.txt");
+            result = new FileOutputStream("C:/Temp/result.txt");
             byte[] data1 = ("""
                     행복은 성취의 기쁨과 창조적 노력이 주는 쾌감 속에 있다. (프랭클린 D. 루스벨트)
                      우리가 할 수 있기 전에 배워야 하는 일들을, 우리는 하면서 배운다. (아리토텔레스)
@@ -34,10 +36,14 @@ public class FileTwoTest {
             }
             System.out.println("파일이 생성되었습니다.");
 
-            File file = new File("/Users/j/Desktop/StreamTestFile/test.txt");
-            File file1 = new File("/Users/j/Desktop/StreamTestFile/result.txt");
-            File newFile = new File("/Users/j/Desktop/StreamTestFile/writer.txt");
+//            File file = new File("/Users/j/Desktop/StreamTestFile/test.txt");
+            File file = new File("C:/Temp/test.txt");
+//            File file1 = new File("/Users/j/Desktop/StreamTestFile/result.txt");
+            File file1 = new File("C:/Temp/result.txt");
+//            File newFile = new File("/Users/j/Desktop/StreamTestFile/writer.txt");
+            File newFile = new File("C:/Temp/writer.txt");
             Files.copy(file.toPath(),newFile.toPath(), StandardCopyOption.REPLACE_EXISTING);
+//            newFile = writer(new FileWriter(file1, true));
 
 
             System.out.println("복사된 파일이 생성되었습니다.");
