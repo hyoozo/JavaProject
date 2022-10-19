@@ -1,5 +1,7 @@
 
 package exam_interface;
+//  꼭 확인해봐야될 클래스 ~~~!!!!!!!!!!~!~!~!~!~!~!~!~!~!~!~!~
+
 
 interface MyInterface{ //인터페이스
     public void print();
