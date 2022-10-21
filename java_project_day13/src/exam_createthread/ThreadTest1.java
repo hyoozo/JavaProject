@@ -13,15 +13,31 @@ class MyRunnable implements Runnable{ //추상메서드1개
             System.out.printf("%-13s - %d\n", myName, i);
         }
     }
+//    Thread 클래스에 run 메소드가 있기때문에 재정의하여 start 로 불러온다.
+//    Thread 를 상속하거나 Runnable 인터페이스를 구현하거나.
 }
 public class ThreadTest1 {
     public static void main(String[] args) {
+
+        Runnable m = ()->{
+            System.out.println("m");
+        };
+//        Thread m1 = new Thread(m);
+//        m1.start();
+        (new Thread(m)).start();
+        //또는
+        (new Thread(()-> {
+            System.out.println("m2");
+        })).start();
+        //이렇게 하면 위에 클래스(MyRunnable 없어도됨)
+        //하지만 인터페이스를 사용할 경우 위에클래스처럼 만들어서 Runnable 인터페이스를 구현해야된다.
+
+
         MyRunnable r1 = new MyRunnable("First Thread"); //인스턴스 만들기
         Thread t1 = new Thread(r1);  //Thread 객체를 만들어야 start() 가능하다.
 
         Thread t2 = new Thread(new MyRunnable("Second Thread"));
-                            //또는 Thread 객체 만들때 바로 줘도된다.
-
+        //또는 Thread 객체 만들때 바로 줘도된다.
         t1.start(); //호출은 start로
         t2.start();
         /*

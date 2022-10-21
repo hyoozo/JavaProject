@@ -9,28 +9,27 @@ public class CountDownTest extends JFrame { //UI 로 보여주는 작업임.
     private static final long serialVersionUID = 1L;
 
     private JLabel label;
+            //JLasbel 은 화면에 보여주는 클래스
 
-    class MyThread extends Thread { //내부 클래스
+    class MyThread extends Thread { // 내부 클래스
                                     // 해당 클래스에서만 쓸것이다. 그래서 내부에 만들었다.
-                                    //UI  작업시 내부 클래스 많이 사용함.
+                                    // UI  작업시 내부 클래스 많이 사용함.
         @Override
         public void run() {
             for (int i = 10; i >= 0; i--) {
                 try {
-                    Thread.sleep(1000);
-                } catch (InterruptedException e) {
+                    Thread.sleep(1000); //실행되고 1초뒤에 실행가능상태로 돌아감.
+                } catch (InterruptedException e) {  //sleep 은 정적 예외처리가 꼭 필요하다.
                     e.printStackTrace();
                 }
                 label.setText(i + "");
-            }
-        }
-    }
-    public CountDownTest(){
+            }   // JLabel 셋팅. 10,9,8 .......;
+        }       // setText 는  인자가 ( String ) 이다.
+    }           // (숫자+문자 or 문자 or String.valueOf(int)) = 문자열로 표현되는것.
+    public CountDownTest(){ //화면구성은 생성자로 쓴다.
         setTitle("카운트다운");   //창의 타이틀바의 내용
         setSize(300, 200); //창의 가로와 세로 길이
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                        // 클로우즈를 눌렀을 경우 화면을 종료하고 어플리케이션을 종료하고 싶을때
-
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);// 클로우즈를 눌렀을 경우 화면을 종료하고 어플리케이션을 종료하고 싶을때
 
 //        setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 //        addWindowListener(new WindowAdapter() {
@@ -66,7 +65,9 @@ public class CountDownTest extends JFrame { //UI 로 보여주는 작업임.
     }
 
     public static void main(String[] args) {
-        new CountDownTest();  // 팝업창이 뜨면서 카운트 다운이 실행됨.
+        new CountDownTest();
+        // 참조변수 안만들어도됨.
+        // 팝업창이 뜨면서 카운트 다운이 실행됨.
     }
 
 }
