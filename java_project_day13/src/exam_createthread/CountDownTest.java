@@ -2,6 +2,7 @@ package exam_createthread;
 
 import javax.swing.*;
 import java.awt.*;
+import java.io.BufferedReader;
 import java.io.Serial;
 
 public class CountDownTest extends JFrame { //UI 로 보여주는 작업임.
@@ -61,6 +62,7 @@ public class CountDownTest extends JFrame { //UI 로 보여주는 작업임.
 
         setVisible(true); //창을 화면에 나타낼 것인지 설정
         setResizable(false); //창의 크기를 조절할 수 없도록 하기.
+
 
     }
 
