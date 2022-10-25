@@ -31,7 +31,7 @@ public class QuizClient {
 
         while ((fromServer = in.readLine()) != null) {
             System.out.println("서버: " + fromServer);
-            if (fromServer.equalsIgnoreCase("quit")) {
+            if (fromServer.equals("quit")) {
                 break;
             }
             fromUser = user.readLine();
