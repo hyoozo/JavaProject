@@ -11,7 +11,7 @@ public class QuizServer {
     public static void main(String[] args) throws IOException{
         ServerSocket serverSocket = null;
         try {
-            serverSocket = new ServerSocket(5555);
+            serverSocket = new ServerSocket(5050); //같은 wifi인 경우 가능.
             System.out.println("클라이언트를 기다린다.");
         } catch (IOException e) {
             System.out.println("다음의 포트 번호에 연결할 수 없습니다 : 5555");
@@ -41,7 +41,7 @@ public class QuizServer {
         while ((inputLine = in.readLine()) != null) {
             outputLine = qp.process(inputLine);
             out.println(outputLine);
-            if (outputLine.equalsIgnoreCase("quit")) {
+            if (outputLine.equals("quit")) {
                 break;
             }
         }

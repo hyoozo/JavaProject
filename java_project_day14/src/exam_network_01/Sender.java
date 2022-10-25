@@ -3,14 +3,13 @@ package exam_network_01;
 import java.io.IOException;
 import java.net.*;
 
+/*/
+문자열 1개를 보내고 받는 프로그램을 작성하여 보자.
+ */
 public class Sender {
     public static void main(String[] args) {
         DatagramPacket packet;
-        DatagramSocket socket = null;
-        try {
-
-
-            socket = new DatagramSocket();
+        try (DatagramSocket socket = new DatagramSocket()) {
 
             String s = "우리는 여전히 우리 운명의 주인이다.";
             byte[] buf = s.getBytes();
@@ -28,10 +27,6 @@ public class Sender {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
-        } finally {
-            if (socket != null) {
-                socket.close();
-            }
         }
     }
 }

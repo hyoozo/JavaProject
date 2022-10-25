@@ -13,12 +13,16 @@ public class QuizClient {
         PrintWriter out = null;
         BufferedReader in = null;
         try {
-            quizSocket = new Socket("localhost", 5555);
+            quizSocket = new Socket("localhost", 5050);
 
             out = new PrintWriter(quizSocket.getOutputStream(), true);
+            //출력 스트림(클라이언트에서 서버로 데이터 전송)
+
             in = new BufferedReader(new InputStreamReader(quizSocket.getInputStream()));
+            //입력 스트림(서버로부터 데이터를 클라이언트로 읽어 들임)
+
         } catch (UnexpectedException e) {
-            System.out.println("localhost에 접근할 수 없습니다.");
+            System.out.println("localhost 접근할 수 없습니다.");
             System.exit(1);
         } catch (IOException e) {
             System.out.println("입출력 오류");
@@ -29,7 +33,7 @@ public class QuizClient {
         String fromServer;
         String fromUser;
 
-        while ((fromServer = in.readLine()) != null) {
+        while ((fromServer = in.readLine()) != null) {  //.SocketException
             System.out.println("서버: " + fromServer);
             if (fromServer.equals("quit")) {
                 break;
