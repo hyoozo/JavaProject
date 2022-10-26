@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="249c8315-45f4-4968-ba77-075c5b4a5078" name="변경" comment="10월 11일 수업내용(브랜치)">
-      <change afterPath="$PROJECT_DIR$/java_project_day14/src/exam_network_02/MessengerA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_project_day14/src/exam_network_02/MessengerB.java" afterDir="false" />
+    <list default="true" id="249c8315-45f4-4968-ba77-075c5b4a5078" name="변경" comment="10월25일 (네트워크구동)">
+      <change afterPath="$PROJECT_DIR$/java_project_day14/src/tsetExample/Test01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day14/src/tsetExample/Test02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day14/src/tsetExample/Test03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_project_day14/src/tsetExample/Test04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project_day14/src/exam_network/QuizClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day14/src/exam_network/QuizClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project_day14/src/exam_network/QuizProtocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day14/src/exam_network/QuizProtocol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project_day14/src/exam_network/QuizServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day14/src/exam_network/QuizServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java_project_day14/src/exam_network_01/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/java_project_day14/src/exam_network_01/Sender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java_project_day14/src/exam_network/Test01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,23 +74,24 @@
       <recent name="$PROJECT_DIR$/java_project_day1/src" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="examplemBox" />
       <recent name="exam_collections" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="example" />
       <recent name="exam_class" />
       <recent name="simplephoneinfo" />
       <recent name="exam_class_basic" />
       <recent name="hy_test_day5" />
+      <recent name="hy_test_exam" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.MessengerA">
-    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_network.EchoClient" />
+  <component name="RunManager" selected="애플리케이션.Sender">
+    <configuration name="Receiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_network_01.Receiver" />
       <module name="java_project_day14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam_network.*" />
+          <option name="PATTERN" value="exam_network_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessengerA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_network_02.MessengerA" />
+    <configuration name="Sender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exam_network_01.Sender" />
       <module name="java_project_day14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam_network_02.*" />
+          <option name="PATTERN" value="exam_network_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessengerB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_network_02.MessengerB" />
+    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tsetExample.Test01" />
       <module name="java_project_day14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam_network_02.*" />
+          <option name="PATTERN" value="tsetExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuizClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_network.QuizClient" />
+    <configuration name="Test03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tsetExample.Test03" />
       <module name="java_project_day14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam_network.*" />
+          <option name="PATTERN" value="tsetExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuizServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exam_network.QuizServer" />
+    <configuration name="Test04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tsetExample.Test04" />
       <module name="java_project_day14" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exam_network.*" />
+          <option name="PATTERN" value="tsetExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.MessengerA" />
-        <item itemvalue="애플리케이션.MessengerB" />
-        <item itemvalue="애플리케이션.QuizClient" />
-        <item itemvalue="애플리케이션.QuizServer" />
-        <item itemvalue="애플리케이션.EchoClient" />
+        <item itemvalue="애플리케이션.Sender" />
+        <item itemvalue="애플리케이션.Receiver" />
+        <item itemvalue="애플리케이션.Test04" />
+        <item itemvalue="애플리케이션.Test03" />
+        <item itemvalue="애플리케이션.Test01" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +226,35 @@
       <option name="project" value="LOCAL" />
       <updated>1665123482600</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="10울 13일 수업 내용 (IO입출력 Stream)">
+      <created>1665641830322</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665641830322</updated>
+    </task>
+    <task id="LOCAL-00010" summary="10월 19일 람다식(함수형)">
+      <created>1666158756229</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666158756229</updated>
+    </task>
+    <task id="LOCAL-00011" summary="10월 20일 (스레드)">
+      <created>1666246802983</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666246802983</updated>
+    </task>
+    <task id="LOCAL-00012" summary="10월 21일 (스레드)">
+      <created>1666332923636</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666332923636</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,7 +278,12 @@
     <MESSAGE value="10월 05일 수업내용" />
     <MESSAGE value="10월 06일 수업내용" />
     <MESSAGE value="10월 07일 수업내용" />
-    <option name="LAST_COMMIT_MESSAGE" value="10월 07일 수업내용" />
+    <MESSAGE value="10울 13일 수업 내용" />
+    <MESSAGE value="10울 13일 수업 내용 (IO입출력 Stream)" />
+    <MESSAGE value="10월 19일 람다식(함수형)" />
+    <MESSAGE value="10월 20일 (스레드)" />
+    <MESSAGE value="10월 21일 (스레드)" />
+    <option name="LAST_COMMIT_MESSAGE" value="10월 21일 (스레드)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -417,22 +451,31 @@
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/java_project_day12/src/exam_buffered_stream/BufferedOutputStreamExample.java</url>
-          <line>8</line>
-          <properties class="exam_buffered_stream.BufferedOutputStreamExample" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/java_project_day12/src/exam_class/FileTwoTest.java</url>
-          <line>14</line>
-          <properties class="exam_class.FileTwoTest" method="main">
+          <url>file://$PROJECT_DIR$/java_project_day12/src/exam_printstream/PrintStreamExample.java</url>
+          <line>6</line>
+          <properties class="exam_printstream.PrintStreamExample" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java_project_day14/src/exam_network/EncodingTest.java</url>
+          <line>7</line>
+          <properties class="exam_network.EncodingTest" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/java_project_day14/src/tsetExample/Test03.java</url>
+          <line>7</line>
+          <properties class="exam_network.Test03" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/hy_example_test1/src/hy_test_day4/Day4_Exam7_1.java</url>
@@ -464,17 +507,23 @@
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/java_project_day12/src/exam_class/InputOutputStreamExample.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="35" />
+          <url>file://$PROJECT_DIR$/java_project_day12/src/exam_class/InputOutputStreamExample02.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java_project_day13/src/exam_join/JoinExample.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java_project_day14/src/exam_network/DownloadImage.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ClassCastException" package="java.lang" />
           <option name="timeStamp" value="25" />
-        </breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NullPointerException" package="java.lang" />
-          <option name="timeStamp" value="38" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
